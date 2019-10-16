@@ -392,43 +392,21 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 <body>
 
 <form action="" id="quicksearch">
-<input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onClick="clearQS()" value="clear" />
+<input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
 <span id="searchstat">Matching entries: <span id="stat">0</span></span>
-<div id="showsettings" onClick="toggleSettings()">settings...</div>
+<div id="showsettings" onclick="toggleSettings()">settings...</div>
 <div id="settings" class="hidden">
 <ul>
-<li><input type="checkbox" class="search_setting" id="opt_searchAbs" onChange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
-<li><input type="checkbox" class="search_setting" id="opt_searchRev" onChange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
-<li><input type="checkbox" class="search_setting" id="opt_useRegExp" onChange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
-<li><input type="checkbox" class="search_setting" id="opt_noAccents" onChange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
+<li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
+<li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
+<li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
+<li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
 </ul>
 </div>
 </form>
 <table id="qs_table" border="1">
 <thead><tr><th width="20%">Author</th><th width="30%">Title</th><th width="5%">Year</th><th width="30%">Journal/Proceedings</th><th width="10%">Reftype</th><th width="5%">DOI/URL</th></tr></thead>
-<tbody><tr id="sliwerski2005changes" class="entry">
-	<td>liwerski, J., Zimmermann, T. and Zeller, A.</td>
-	<td>When do changes induce fixes? <p class="infolinks">[<a href="javascript:toggleInfo('sliwerski2005changes','bibtex')">BibTeX</a>]</p></td>
-	<td>2005</td>
-	<td><br/>Vol. 30(4)ACM sigsoft software engineering notes, pp. 1-5&nbsp;</td>
-	<td>inproceedings</td>
-	<td>&nbsp;</td>
-</tr>
-<tr id="bib_sliwerski2005changes" class="bibtex noshow">
-<td colspan="6"><b>BibTeX</b>:
-<pre>
-@inproceedings{sliwerski2005changes,
-  author = {liwerski, Jacek and Zimmermann, Thomas and Zeller, Andreas},
-  title = {When do changes induce fixes?},
-  booktitle = {ACM sigsoft software engineering notes},
-  year = {2005},
-  volume = {30},
-  number = {4},
-  pages = {1--5}
-}
-</pre></td>
-</tr>
-<tr id="agrawal2019dodge" class="entry">
+<tbody><tr id="agrawal2019dodge" class="entry">
 	<td>Agrawal, A., Fu, W., Chen, D., Shen, X. and Menzies, T.</td>
 	<td>How to" DODGE" Complex Software Analytics? <p class="infolinks">[<a href="javascript:toggleInfo('agrawal2019dodge','bibtex')">BibTeX</a>]</p></td>
 	<td>2019</td>
@@ -467,11 +445,71 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="amasaki2017applicability" class="entry">
+	<td>Amasaki, S.</td>
+	<td>On Applicability of Cross-project Defect Prediction Method for Multi-Versions Projects <p class="infolinks">[<a href="javascript:toggleInfo('amasaki2017applicability','bibtex')">BibTeX</a>]</p></td>
+	<td>2017</td>
+	<td>Proceedings of the 13th International Conference on Predictive Models and Data Analytics in Software Engineering, pp. 93-96&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_amasaki2017applicability" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{amasaki2017applicability,
+  author = {Amasaki, Sousuke},
+  title = {On Applicability of Cross-project Defect Prediction Method for Multi-Versions Projects},
+  booktitle = {Proceedings of the 13th International Conference on Predictive Models and Data Analytics in Software Engineering},
+  year = {2017},
+  pages = {93--96}
+}
+</pre></td>
+</tr>
+<tr id="amasaki2018cross" class="entry">
+	<td>Amasaki, S.</td>
+	<td>Cross-Version Defect Prediction using Cross-Project Defect Prediction Approaches: Does it work? <p class="infolinks">[<a href="javascript:toggleInfo('amasaki2018cross','bibtex')">BibTeX</a>]</p></td>
+	<td>2018</td>
+	<td>Proceedings of the 14th International Conference on Predictive Models and Data Analytics in Software Engineering, pp. 32-41&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_amasaki2018cross" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{amasaki2018cross,
+  author = {Amasaki, Sousuke},
+  title = {Cross-Version Defect Prediction using Cross-Project Defect Prediction Approaches: Does it work?},
+  booktitle = {Proceedings of the 14th International Conference on Predictive Models and Data Analytics in Software Engineering},
+  year = {2018},
+  pages = {32--41}
+}
+</pre></td>
+</tr>
+<tr id="amasaki2019applying" class="entry">
+	<td>Amasaki, S., Yokogawa, T. and Aman, H.</td>
+	<td>Applying Cross Project Defect Prediction Approaches to Cross-Company Effort Estimation <p class="infolinks">[<a href="javascript:toggleInfo('amasaki2019applying','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>Proceedings of the Fifteenth International Conference on Predictive Models and Data Analytics in Software Engineering, pp. 76-79&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_amasaki2019applying" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{amasaki2019applying,
+  author = {Amasaki, Sousuke and Yokogawa, Tomoyuki and Aman, Hirohisa},
+  title = {Applying Cross Project Defect Prediction Approaches to Cross-Company Effort Estimation},
+  booktitle = {Proceedings of the Fifteenth International Conference on Predictive Models and Data Analytics in Software Engineering},
+  year = {2019},
+  pages = {76--79}
+}
+</pre></td>
+</tr>
 <tr id="bachmann2010missing" class="entry">
 	<td>Bachmann, A., Bird, C., Rahman, F., Devanbu, P. and Bernstein, A.</td>
 	<td>The missing links: bugs and bug-fix commits <p class="infolinks">[<a href="javascript:toggleInfo('bachmann2010missing','bibtex')">BibTeX</a>]</p></td>
 	<td>2010</td>
-	<td>Proceedings of the eighteenth ACM SIGSOFT international symposium on Foundations of software engineering, pp. 97-106&nbsp;</td>
+	<td>Proceedings of the eighteenth ACM SIGSOFT International Symposium on Foundations of Software Engineering, pp. 97-106&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -481,7 +519,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{bachmann2010missing,
   author = {Bachmann, Adrian and Bird, Christian and Rahman, Foyzur and Devanbu, Premkumar and Bernstein, Abraham},
   title = {The missing links: bugs and bug-fix commits},
-  booktitle = {Proceedings of the eighteenth ACM SIGSOFT international symposium on Foundations of software engineering},
+  booktitle = {Proceedings of the eighteenth ACM SIGSOFT International Symposium on Foundations of Software Engineering},
   year = {2010},
   pages = {97--106}
 }
@@ -560,7 +598,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Bennin, K.E., Toda, K., Kamei, Y., Keung, J., Monden, A. and Ubayashi, N.</td>
 	<td>Empirical evaluation of cross-release effort-aware defect prediction models <p class="infolinks">[<a href="javascript:toggleInfo('bennin2016empirical','bibtex')">BibTeX</a>]</p></td>
 	<td>2016</td>
-	<td>2016 IEEE International Conference on Software Quality, Reliability and Security (QRS), pp. 214-221&nbsp;</td>
+	<td>Proceedings of the 2016 IEEE International Conference on Software Quality, Reliability and Security, pp. 214-221&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -570,7 +608,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{bennin2016empirical,
   author = {Bennin, Kwabena Ebo and Toda, Koji and Kamei, Yasutaka and Keung, Jacky and Monden, Akito and Ubayashi, Naoyasu},
   title = {Empirical evaluation of cross-release effort-aware defect prediction models},
-  booktitle = {2016 IEEE International Conference on Software Quality, Reliability and Security (QRS)},
+  booktitle = {Proceedings of the 2016 IEEE International Conference on Software Quality, Reliability and Security},
   year = {2016},
   pages = {214--221}
 }
@@ -580,7 +618,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Bettenburg, N., Nagappan, M. and Hassan, A.E.</td>
 	<td>Think locally, act globally: Improving defect and effort prediction models <p class="infolinks">[<a href="javascript:toggleInfo('bettenburg2012think','bibtex')">BibTeX</a>]</p></td>
 	<td>2012</td>
-	<td>2012 9th IEEE Working Conference on Mining Software Repositories (MSR), pp. 60-69&nbsp;</td>
+	<td>Proceedings of the 2012 9th IEEE Working Conference on Mining Software Repositories, pp. 60-69&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -590,7 +628,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{bettenburg2012think,
   author = {Bettenburg, Nicolas and Nagappan, Meiyappan and Hassan, Ahmed E},
   title = {Think locally, act globally: Improving defect and effort prediction models},
-  booktitle = {2012 9th IEEE Working Conference on Mining Software Repositories (MSR)},
+  booktitle = {Proceedings of the 2012 9th IEEE Working Conference on Mining Software Repositories},
   year = {2012},
   pages = {60--69}
 }
@@ -623,7 +661,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Bin, Y., Zhou, K., Lu, H., Zhou, Y. and Xu, B.</td>
 	<td>Training data selection for cross-project defection prediction: which approach is better? <p class="infolinks">[<a href="javascript:toggleInfo('bin2017training','bibtex')">BibTeX</a>]</p></td>
 	<td>2017</td>
-	<td>2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), pp. 354-363&nbsp;</td>
+	<td>Proceedings of the 2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, pp. 354-363&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -633,7 +671,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{bin2017training,
   author = {Bin, Yi and Zhou, Kai and Lu, Hongmin and Zhou, Yuming and Xu, Baowen},
   title = {Training data selection for cross-project defection prediction: which approach is better?},
-  booktitle = {2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)},
+  booktitle = {Proceedings of the 2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement},
   year = {2017},
   pages = {354--363}
 }
@@ -643,7 +681,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Bird, C., Nagappan, N., Devanbu, P., Gall, H. and Murphy, B.</td>
 	<td>Does distributed development affect software quality? An empirical case study of Windows Vista <p class="infolinks">[<a href="javascript:toggleInfo('bird2009does','bibtex')">BibTeX</a>]</p></td>
 	<td>2009</td>
-	<td>Proceedings of the 31st international conference on software engineering, pp. 518-528&nbsp;</td>
+	<td>Proceedings of the 31st International Conference on Software Engineering, pp. 518-528&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -653,9 +691,29 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{bird2009does,
   author = {Bird, Christian and Nagappan, Nachiappan and Devanbu, Premkumar and Gall, Harald and Murphy, Brendan},
   title = {Does distributed development affect software quality? An empirical case study of Windows Vista},
-  booktitle = {Proceedings of the 31st international conference on software engineering},
+  booktitle = {Proceedings of the 31st International Conference on Software Engineering},
   year = {2009},
   pages = {518--528}
+}
+</pre></td>
+</tr>
+<tr id="bowes2015different" class="entry">
+	<td>Bowes, D., Hall, T. and Petri&cacute;, J.</td>
+	<td>Different classifiers find different defects although with different level of consistency <p class="infolinks">[<a href="javascript:toggleInfo('bowes2015different','bibtex')">BibTeX</a>]</p></td>
+	<td>2015</td>
+	<td>Proceedings of the 11th International Conference on Predictive Models and Data Analytics in Software Engineering, pp. 3&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_bowes2015different" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{bowes2015different,
+  author = {Bowes, David and Hall, Tracy and Petri&cacute;, Jean},
+  title = {Different classifiers find different defects although with different level of consistency},
+  booktitle = {Proceedings of the 11th International Conference on Predictive Models and Data Analytics in Software Engineering},
+  year = {2015},
+  pages = {3}
 }
 </pre></td>
 </tr>
@@ -850,6 +908,29 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="chen2019dp" class="entry">
+	<td>Chen, X., Zhang, D., Cui, Z.-Q., Gu, Q. and Ju, X.-L.</td>
+	<td>DP-Share: Privacy-Preserving Software Defect Prediction Model Sharing Through Differential Privacy <p class="infolinks">[<a href="javascript:toggleInfo('chen2019dp','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>Journal of Computer Science and Technology<br/>Vol. 34(5), pp. 1020-1038&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_chen2019dp" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{chen2019dp,
+  author = {Chen, Xiang and Zhang, Dun and Cui, Zhan-Qi and Gu, Qing and Ju, Xiao-Lin},
+  title = {DP-Share: Privacy-Preserving Software Defect Prediction Model Sharing Through Differential Privacy},
+  journal = {Journal of Computer Science and Technology},
+  publisher = {Springer},
+  year = {2019},
+  volume = {34},
+  number = {5},
+  pages = {1020--1038}
+}
+</pre></td>
+</tr>
 <tr id="chen2019software" class="entry">
 	<td>Chen, X., Zhang, D., Zhao, Y., Cui, Z. and Ni, C.</td>
 	<td>Software defect number prediction: Unsupervised vs supervised methods <p class="infolinks">[<a href="javascript:toggleInfo('chen2019software','bibtex')">BibTeX</a>]</p></td>
@@ -941,7 +1022,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Dam, H.K., Tran, T., Pham, T.T.M., Ng, S.W., Grundy, J. and Ghose, A.</td>
 	<td>Automatic feature learning for predicting vulnerable software components <p class="infolinks">[<a href="javascript:toggleInfo('dam2018automatic','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -953,7 +1034,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {Automatic feature learning for predicting vulnerable software components},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -1007,7 +1089,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Di Nucci, D., Palomba, F., Siravo, S., Bavota, G., Oliveto, R. and De Lucia, A.</td>
 	<td>On the role of developer's scattered changes in bug prediction <p class="infolinks">[<a href="javascript:toggleInfo('di2015role','bibtex')">BibTeX</a>]</p></td>
 	<td>2015</td>
-	<td>Proceedings of the 2015 IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 241-250&nbsp;</td>
+	<td>Proceedings of the 2015 IEEE International Conference on Software Maintenance and Evolution, pp. 241-250&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1017,7 +1099,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{di2015role,
   author = {Di Nucci, Dario and Palomba, Fabio and Siravo, Sandro and Bavota, Gabriele and Oliveto, Rocco and De Lucia, Andrea},
   title = {On the role of developer's scattered changes in bug prediction},
-  booktitle = {Proceedings of the 2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  booktitle = {Proceedings of the 2015 IEEE International Conference on Software Maintenance and Evolution},
   year = {2015},
   pages = {241--250}
 }
@@ -1093,7 +1175,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Fan, Y., Xia, X., da Costa, D.A., Lo, D., Hassan, A.E. and Li, S.</td>
 	<td>The Impact of Changes Mislabeled by SZZ on Just-in-Time Defect Prediction <p class="infolinks">[<a href="javascript:toggleInfo('fan2019impact','bibtex')">BibTeX</a>]</p></td>
 	<td>2019</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1105,7 +1187,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {The Impact of Changes Mislabeled by SZZ on Just-in-Time Defect Prediction},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2019}
+  year = {2019},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -1241,7 +1324,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Ghotra, B., McIntosh, S. and Hassan, A.E.</td>
 	<td>A large-scale study of the impact of feature selection techniques on defect classification models <p class="infolinks">[<a href="javascript:toggleInfo('ghotra2017large','bibtex')">BibTeX</a>]</p></td>
 	<td>2017</td>
-	<td>2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR), pp. 146-157&nbsp;</td>
+	<td>Proceedings of the 2017 IEEE/ACM 14th International Conference on Mining Software Repositories, pp. 146-157&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1251,7 +1334,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{ghotra2017large,
   author = {Ghotra, Baljinder and McIntosh, Shane and Hassan, Ahmed E},
   title = {A large-scale study of the impact of feature selection techniques on defect classification models},
-  booktitle = {2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)},
+  booktitle = {Proceedings of the 2017 IEEE/ACM 14th International Conference on Mining Software Repositories},
   year = {2017},
   pages = {146--157}
 }
@@ -1261,7 +1344,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Gong, L., Jiang, S., Bo, L., Jiang, L. and Qian, J.</td>
 	<td>A Novel Class-Imbalance Learning Approach for Both Within-Project and Cross-Project Defect Prediction <p class="infolinks">[<a href="javascript:toggleInfo('gong2019novel','bibtex')">BibTeX</a>]</p></td>
 	<td>2019</td>
-	<td>IEEE Transactions on Reliability&nbsp;</td>
+	<td>IEEE Transactions on Reliability<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1273,7 +1356,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {A Novel Class-Imbalance Learning Approach for Both Within-Project and Cross-Project Defect Prediction},
   journal = {IEEE Transactions on Reliability},
   publisher = {IEEE},
-  year = {2019}
+  year = {2019},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -1365,7 +1449,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Hassan, A.E. and Holt, R.C.</td>
 	<td>The top ten list: Dynamic fault prediction <p class="infolinks">[<a href="javascript:toggleInfo('hassan2005top','bibtex')">BibTeX</a>]</p></td>
 	<td>2005</td>
-	<td>Proceedings of the 21st IEEE International Conference on Software Maintenance (ICSM'05), pp. 263-272&nbsp;</td>
+	<td>Proceedings of the 21st IEEE International Conference on Software Maintenance, pp. 263-272&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1375,7 +1459,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{hassan2005top,
   author = {Hassan, Ahmed E and Holt, Richard C},
   title = {The top ten list: Dynamic fault prediction},
-  booktitle = {Proceedings of the 21st IEEE International Conference on Software Maintenance (ICSM'05)},
+  booktitle = {Proceedings of the 21st IEEE International Conference on Software Maintenance},
   year = {2005},
   pages = {263--272}
 }
@@ -1535,7 +1619,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Herzig, K., Just, S. and Zeller, A.</td>
 	<td>It's not a bug, it's a feature: how misclassification impacts bug prediction <p class="infolinks">[<a href="javascript:toggleInfo('herzig2013s','bibtex')">BibTeX</a>]</p></td>
 	<td>2013</td>
-	<td>Proceedings of the 2013 international conference on software engineering, pp. 392-401&nbsp;</td>
+	<td>Proceedings of the 2013 International Conference on Software Engineering, pp. 392-401&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1545,7 +1629,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{herzig2013s,
   author = {Herzig, Kim and Just, Sascha and Zeller, Andreas},
   title = {It's not a bug, it's a feature: how misclassification impacts bug prediction},
-  booktitle = {Proceedings of the 2013 international conference on software engineering},
+  booktitle = {Proceedings of the 2013 International Conference on Software Engineering},
   year = {2013},
   pages = {392--401}
 }
@@ -1640,7 +1724,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Huang, Q., Xia, X. and Lo, D.</td>
 	<td>Supervised vs unsupervised models: A holistic look at effort-aware just-in-time defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('huang2017supervised','bibtex')">BibTeX</a>]</p></td>
 	<td>2017</td>
-	<td>Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 159-170&nbsp;</td>
+	<td>Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution, pp. 159-170&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1650,30 +1734,32 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{huang2017supervised,
   author = {Huang, Qiao and Xia, Xin and Lo, David},
   title = {Supervised vs unsupervised models: A holistic look at effort-aware just-in-time defect prediction},
-  booktitle = {Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  booktitle = {Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution},
   year = {2017},
   pages = {159--170}
 }
 </pre></td>
 </tr>
-<tr id="huang2018revisiting" class="entry">
+<tr id="huang2019revisiting" class="entry">
 	<td>Huang, Q., Xia, X. and Lo, D.</td>
-	<td>Revisiting supervised and unsupervised models for effort-aware just-in-time defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('huang2018revisiting','bibtex')">BibTeX</a>]</p></td>
-	<td>2018</td>
-	<td>Empirical Software Engineering, pp. 1-40&nbsp;</td>
+	<td>Revisiting supervised and unsupervised models for effort-aware just-in-time defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('huang2019revisiting','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>Empirical Software Engineering<br/>Vol. 24(5), pp. 2823-2862&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
-<tr id="bib_huang2018revisiting" class="bibtex noshow">
+<tr id="bib_huang2019revisiting" class="bibtex noshow">
 <td colspan="6"><b>BibTeX</b>:
 <pre>
-@article{huang2018revisiting,
+@article{huang2019revisiting,
   author = {Huang, Qiao and Xia, Xin and Lo, David},
   title = {Revisiting supervised and unsupervised models for effort-aware just-in-time defect prediction},
   journal = {Empirical Software Engineering},
   publisher = {Springer},
-  year = {2018},
-  pages = {1--40}
+  year = {2019},
+  volume = {24},
+  number = {5},
+  pages = {2823--2862}
 }
 </pre></td>
 </tr>
@@ -1681,7 +1767,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Huo, X., Yang, Y., Li, M. and Zhan, D.-C.</td>
 	<td>Learning Semantic Features for Software Defect Prediction by Code Comments Embedding <p class="infolinks">[<a href="javascript:toggleInfo('huo2018learning','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>Proceedings of the 2018 IEEE International Conference on Data Mining (ICDM), pp. 1049-1054&nbsp;</td>
+	<td>Proceedings of the 2018 IEEE International Conference on Data Mining, pp. 1049-1054&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1691,9 +1777,29 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{huo2018learning,
   author = {Huo, Xuan and Yang, Yang and Li, Ming and Zhan, De-Chuan},
   title = {Learning Semantic Features for Software Defect Prediction by Code Comments Embedding},
-  booktitle = {Proceedings of the 2018 IEEE International Conference on Data Mining (ICDM)},
+  booktitle = {Proceedings of the 2018 IEEE International Conference on Data Mining},
   year = {2018},
   pages = {1049--1054}
+}
+</pre></td>
+</tr>
+<tr id="jahanshahi2019does" class="entry">
+	<td>Jahanshahi, H., Jothimani, D., Ba&scedil;ar, A. and Cevik, M.</td>
+	<td>Does chronology matter in JIT defect prediction?: A Partial Replication Study <p class="infolinks">[<a href="javascript:toggleInfo('jahanshahi2019does','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>Proceedings of the Fifteenth International Conference on Predictive Models and Data Analytics in Software Engineering, pp. 90-99&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_jahanshahi2019does" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{jahanshahi2019does,
+  author = {Jahanshahi, Hadi and Jothimani, Dhanya and Ba&scedil;ar, Ay&scedil;e and Cevik, Mucahit},
+  title = {Does chronology matter in JIT defect prediction?: A Partial Replication Study},
+  booktitle = {Proceedings of the Fifteenth International Conference on Predictive Models and Data Analytics in Software Engineering},
+  year = {2019},
+  pages = {90--99}
 }
 </pre></td>
 </tr>
@@ -1721,7 +1827,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Jiarpakdee, J., Tantithamthavorn, C. and Hassan, A.E.</td>
 	<td>The Impact of Correlated Metrics on the Interpretation of Defect Models <p class="infolinks">[<a href="javascript:toggleInfo('jiarpakdee2019impact','bibtex')">BibTeX</a>]</p></td>
 	<td>2019</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -1733,26 +1839,28 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {The Impact of Correlated Metrics on the Interpretation of Defect Models},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2019}
+  year = {2019},
+  volume = {xx}
 }
 </pre></td>
 </tr>
 <tr id="jiarpakdee2018autospearman" class="entry">
 	<td>Jiarpakdee, J., Tantithamthavorn, C. and Treude, C.</td>
-	<td>Autospearman: Automatically mitigating correlated metrics for interpreting defect models <p class="infolinks">[<a href="javascript:toggleInfo('jiarpakdee2018autospearman','bibtex')">BibTeX</a>]</p></td>
+	<td>AutoSpearman: Automatically Mitigating Correlated Software Metrics for Interpreting Defect Models <p class="infolinks">[<a href="javascript:toggleInfo('jiarpakdee2018autospearman','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>arXiv preprint arXiv:1806.09791&nbsp;</td>
-	<td>article</td>
+	<td>Proceedings of 2018 IEEE International Conference on Software Maintenance and Evolution, pp. 92-103&nbsp;</td>
+	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
 <tr id="bib_jiarpakdee2018autospearman" class="bibtex noshow">
 <td colspan="6"><b>BibTeX</b>:
 <pre>
-@article{jiarpakdee2018autospearman,
+@inproceedings{jiarpakdee2018autospearman,
   author = {Jiarpakdee, Jirayus and Tantithamthavorn, Chakkrit and Treude, Christoph},
-  title = {Autospearman: Automatically mitigating correlated metrics for interpreting defect models},
-  journal = {arXiv preprint arXiv:1806.09791},
-  year = {2018}
+  title = {AutoSpearman: Automatically Mitigating Correlated Software Metrics for Interpreting Defect Models},
+  booktitle = {Proceedings of 2018 IEEE International Conference on Software Maintenance and Evolution},
+  year = {2018},
+  pages = {92--103}
 }
 </pre></td>
 </tr>
@@ -1990,7 +2098,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Kim, S., Zimmermann, T., Whitehead Jr, E.J. and Zeller, A.</td>
 	<td>Predicting faults from cached history <p class="infolinks">[<a href="javascript:toggleInfo('kim2007predicting','bibtex')">BibTeX</a>]</p></td>
 	<td>2007</td>
-	<td>Proceedings of the 29th international conference on Software Engineering, pp. 489-498&nbsp;</td>
+	<td>Proceedings of the 29th International Conference on Software Engineering, pp. 489-498&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2000,7 +2108,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{kim2007predicting,
   author = {Kim, Sunghun and Zimmermann, Thomas and Whitehead Jr, E James and Zeller, Andreas},
   title = {Predicting faults from cached history},
-  booktitle = {Proceedings of the 29th international conference on Software Engineering},
+  booktitle = {Proceedings of the 29th International Conference on Software Engineering},
   year = {2007},
   pages = {489--498}
 }
@@ -2030,7 +2138,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Kondo, M., Bezemer, C.-P., Kamei, Y., Hassan, A.E. and Mizuno, O.</td>
 	<td>The impact of feature reduction techniques on defect prediction models <p class="infolinks">[<a href="javascript:toggleInfo('kondo2019impact','bibtex')">BibTeX</a>]</p></td>
 	<td>2019</td>
-	<td>Empirical Software Engineering, pp. 1-39&nbsp;</td>
+	<td>Empirical Software Engineering<br/>Vol. xx, pp. 1-39&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2043,6 +2151,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   journal = {Empirical Software Engineering},
   publisher = {Springer},
   year = {2019},
+  volume = {xx},
   pages = {1--39}
 }
 </pre></td>
@@ -2072,7 +2181,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Krishna, R. and Menzies, T.</td>
 	<td>Bellwethers: A baseline method for transfer learning <p class="infolinks">[<a href="javascript:toggleInfo('krishna2018bellwethers','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2084,7 +2193,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {Bellwethers: A baseline method for transfer learning},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -2108,11 +2218,33 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="kumar2018effective" class="entry">
+	<td>Kumar, L., Sripada, S.K., Sureka, A. and Rath, S.K.</td>
+	<td>Effective fault prediction model developed using least square support vector machine (LSSVM) <p class="infolinks">[<a href="javascript:toggleInfo('kumar2018effective','bibtex')">BibTeX</a>]</p></td>
+	<td>2018</td>
+	<td>Journal of Systems and Software<br/>Vol. 137, pp. 686-712&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_kumar2018effective" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{kumar2018effective,
+  author = {Kumar, Lov and Sripada, Sai Krishna and Sureka, Ashish and Rath, Santanu Ku},
+  title = {Effective fault prediction model developed using least square support vector machine (LSSVM)},
+  journal = {Journal of Systems and Software},
+  publisher = {Elsevier},
+  year = {2018},
+  volume = {137},
+  pages = {686--712}
+}
+</pre></td>
+</tr>
 <tr id="le2015rclinker" class="entry">
 	<td>Le, T.-D.B., Linares-V&aacute;squez, M., Lo, D. and Poshyvanyk, D.</td>
 	<td>RCLinker: automated linking of issue reports and commits leveraging rich contextual information <p class="infolinks">[<a href="javascript:toggleInfo('le2015rclinker','bibtex')">BibTeX</a>]</p></td>
 	<td>2015</td>
-	<td>2015 IEEE 23rd International Conference on Program Comprehension, pp. 36-47&nbsp;</td>
+	<td>Proceedings of the 2015 IEEE 23rd International Conference on Program Comprehension, pp. 36-47&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2122,7 +2254,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{le2015rclinker,
   author = {Le, Tien-Duy B and Linares-V&aacute;squez, Mario and Lo, David and Poshyvanyk, Denys},
   title = {RCLinker: automated linking of issue reports and commits leveraging rich contextual information},
-  booktitle = {2015 IEEE 23rd International Conference on Program Comprehension},
+  booktitle = {Proceedings of the 2015 IEEE 23rd International Conference on Program Comprehension},
   year = {2015},
   pages = {36--47}
 }
@@ -2218,7 +2350,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Li, J., He, P., Zhu, J. and Lyu, M.R.</td>
 	<td>Software defect prediction via convolutional neural network <p class="infolinks">[<a href="javascript:toggleInfo('li2017software','bibtex')">BibTeX</a>]</p></td>
 	<td>2017</td>
-	<td>2017 IEEE International Conference on Software Quality, Reliability and Security (QRS), pp. 318-328&nbsp;</td>
+	<td>Proceedings of the 2017 IEEE International Conference on Software Quality, Reliability and Security, pp. 318-328&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2228,7 +2360,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{li2017software,
   author = {Li, Jian and He, Pinjia and Zhu, Jieming and Lyu, Michael R},
   title = {Software defect prediction via convolutional neural network},
-  booktitle = {2017 IEEE International Conference on Software Quality, Reliability and Security (QRS)},
+  booktitle = {Proceedings of the 2017 IEEE International Conference on Software Quality, Reliability and Security},
   year = {2017},
   pages = {318--328}
 }
@@ -2346,7 +2478,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Li, Z., Jing, X.-Y., Zhu, X. and Zhang, H.</td>
 	<td>Heterogeneous defect prediction through multiple kernel learning and ensemble learning <p class="infolinks">[<a href="javascript:toggleInfo('li2017heterogeneous','bibtex')">BibTeX</a>]</p></td>
 	<td>2017</td>
-	<td>Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 91-102&nbsp;</td>
+	<td>Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution, pp. 91-102&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2356,7 +2488,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{li2017heterogeneous,
   author = {Li, Zhiqiang and Jing, Xiao-Yuan and Zhu, Xiaoke and Zhang, Hongyu},
   title = {Heterogeneous defect prediction through multiple kernel learning and ensemble learning},
-  booktitle = {Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  booktitle = {Proceedings of the 2017 IEEE International Conference on Software Maintenance and Evolution},
   year = {2017},
   pages = {91--102}
 }
@@ -2452,7 +2584,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Liu, S., Chen, X., Liu, W., Chen, J., Gu, Q. and Chen, D.</td>
 	<td>FECAR: A feature selection framework for software defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('liu2014fecar','bibtex')">BibTeX</a>]</p></td>
 	<td>2014</td>
-	<td>2014 IEEE 38th Annual Computer Software and Applications Conference, pp. 426-435&nbsp;</td>
+	<td>Proceedings of the 2014 IEEE 38th Annual Computer Software and Applications Conference, pp. 426-435&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2462,7 +2594,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{liu2014fecar,
   author = {Liu, Shulong and Chen, Xiang and Liu, Wangshu and Chen, Jiaqiang and Gu, Qing and Chen, Daoxu},
   title = {FECAR: A feature selection framework for software defect prediction},
-  booktitle = {2014 IEEE 38th Annual Computer Software and Applications Conference},
+  booktitle = {Proceedings of the 2014 IEEE 38th Annual Computer Software and Applications Conference},
   year = {2014},
   pages = {426--435}
 }
@@ -2495,7 +2627,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Liu, Y., Li, Y., Guo, J., Zhou, Y. and Xu, B.</td>
 	<td>Connecting software metrics across versions to predict defects <p class="infolinks">[<a href="javascript:toggleInfo('liu2018connecting','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 232-243&nbsp;</td>
+	<td>Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering, pp. 232-243&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2505,7 +2637,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{liu2018connecting,
   author = {Liu, Yibin and Li, Yanhui and Guo, Jianbo and Zhou, Yuming and Xu, Baowen},
   title = {Connecting software metrics across versions to predict defects},
-  booktitle = {Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)},
+  booktitle = {Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering},
   year = {2018},
   pages = {232--243}
 }
@@ -2515,7 +2647,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Lu, H., Kocaguneli, E. and Cukic, B.</td>
 	<td>Defect prediction between software versions with active learning and dimensionality reduction <p class="infolinks">[<a href="javascript:toggleInfo('lu2014defect','bibtex')">BibTeX</a>]</p></td>
 	<td>2014</td>
-	<td>2014 IEEE 25th International Symposium on Software Reliability Engineering, pp. 312-322&nbsp;</td>
+	<td>Proceedings of the 2014 IEEE 25th International Symposium on Software Reliability Engineering, pp. 312-322&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2525,7 +2657,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{lu2014defect,
   author = {Lu, Huihua and Kocaguneli, Ekrem and Cukic, Bojan},
   title = {Defect prediction between software versions with active learning and dimensionality reduction},
-  booktitle = {2014 IEEE 25th International Symposium on Software Reliability Engineering},
+  booktitle = {Proceedings of the 2014 IEEE 25th International Symposium on Software Reliability Engineering},
   year = {2014},
   pages = {312--322}
 }
@@ -2574,6 +2706,26 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   volume = {54},
   number = {3},
   pages = {248--256}
+}
+</pre></td>
+</tr>
+<tr id="mahmood2015impact" class="entry">
+	<td>Mahmood, Z., Bowes, D., Lane, P.C. and Hall, T.</td>
+	<td>What is the impact of imbalance on software defect prediction performance? <p class="infolinks">[<a href="javascript:toggleInfo('mahmood2015impact','bibtex')">BibTeX</a>]</p></td>
+	<td>2015</td>
+	<td>Proceedings of the 11th International Conference on Predictive Models and Data Analytics in Software Engineering, pp. 4&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_mahmood2015impact" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{mahmood2015impact,
+  author = {Mahmood, Zaheed and Bowes, David and Lane, Peter CR and Hall, Tracy},
+  title = {What is the impact of imbalance on software defect prediction performance?},
+  booktitle = {Proceedings of the 11th International Conference on Predictive Models and Data Analytics in Software Engineering},
+  year = {2015},
+  pages = {4}
 }
 </pre></td>
 </tr>
@@ -2709,7 +2861,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Menzies, T., Butcher, A., Cok, D., Marcus, A., Layman, L., Shull, F., Turhan, B. and Zimmermann, T.</td>
 	<td>Local versus global lessons for defect prediction and effort estimation <p class="infolinks">[<a href="javascript:toggleInfo('menzies2012local','bibtex')">BibTeX</a>]</p></td>
 	<td>2012</td>
-	<td>IEEE Transactions on software engineering<br/>Vol. 39(6), pp. 822-834&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. 39(6), pp. 822-834&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2719,7 +2871,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @article{menzies2012local,
   author = {Menzies, Tim and Butcher, Andrew and Cok, David and Marcus, Andrian and Layman, Lucas and Shull, Forrest and Turhan, Burak and Zimmermann, Thomas},
   title = {Local versus global lessons for defect prediction and effort estimation},
-  journal = {IEEE Transactions on software engineering},
+  journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
   year = {2012},
   volume = {39},
@@ -2732,7 +2884,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Menzies, T., Butcher, A., Marcus, A., Zimmermann, T. and Cok, D.</td>
 	<td>Local vs. global models for effort estimation and defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('menzies2011local','bibtex')">BibTeX</a>]</p></td>
 	<td>2011</td>
-	<td>Proceedings of the 2011 26th IEEE/ACM International Conference on Automated Software Engineering (ASE 2011), pp. 343-351&nbsp;</td>
+	<td>Proceedings of the 2011 26th IEEE/ACM International Conference on Automated Software Engineering, pp. 343-351&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2742,7 +2894,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{menzies2011local,
   author = {Menzies, Tim and Butcher, Andrew and Marcus, Andrian and Zimmermann, Thomas and Cok, David},
   title = {Local vs. global models for effort estimation and defect prediction},
-  booktitle = {Proceedings of the 2011 26th IEEE/ACM International Conference on Automated Software Engineering (ASE 2011)},
+  booktitle = {Proceedings of the 2011 26th IEEE/ACM International Conference on Automated Software Engineering},
   year = {2011},
   pages = {343--351}
 }
@@ -2844,7 +2996,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Moser, R., Pedrycz, W. and Succi, G.</td>
 	<td>A comparative analysis of the efficiency of change metrics and static code attributes for defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('moser2008comparative','bibtex')">BibTeX</a>]</p></td>
 	<td>2008</td>
-	<td>Proceedings of the 30th international conference on Software engineering, pp. 181-190&nbsp;</td>
+	<td>Proceedings of the 30th International Conference on Software Engineering, pp. 181-190&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -2854,7 +3006,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{moser2008comparative,
   author = {Moser, Raimund and Pedrycz, Witold and Succi, Giancarlo},
   title = {A comparative analysis of the efficiency of change metrics and static code attributes for defect prediction},
-  booktitle = {Proceedings of the 30th international conference on Software engineering},
+  booktitle = {Proceedings of the 30th International Conference on Software Engineering},
   year = {2008},
   pages = {181--190}
 }
@@ -3138,7 +3290,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Panichella, A., Oliveto, R. and De Lucia, A.</td>
 	<td>Cross-project defect prediction models: L'union fait la force <p class="infolinks">[<a href="javascript:toggleInfo('panichella2014cross','bibtex')">BibTeX</a>]</p></td>
 	<td>2014</td>
-	<td>Proceedings of the 2014 Software Evolution Week-IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE), pp. 164-173&nbsp;</td>
+	<td>Proceedings of the 2014 Software Evolution Week-IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering, pp. 164-173&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -3148,7 +3300,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{panichella2014cross,
   author = {Panichella, Annibale and Oliveto, Rocco and De Lucia, Andrea},
   title = {Cross-project defect prediction models: L'union fait la force},
-  booktitle = {Proceedings of the 2014 Software Evolution Week-IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE)},
+  booktitle = {Proceedings of the 2014 Software Evolution Week-IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering},
   year = {2014},
   pages = {164--173}
 }
@@ -3284,7 +3436,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Poon, W.N., Bennin, K.E., Huang, J., Phannachitta, P. and Keung, J.W.</td>
 	<td>Cross-project defect prediction using a credibility theory based naive bayes classifier <p class="infolinks">[<a href="javascript:toggleInfo('poon2017cross','bibtex')">BibTeX</a>]</p></td>
 	<td>2017</td>
-	<td>2017 IEEE International Conference on Software Quality, Reliability and Security (QRS), pp. 434-441&nbsp;</td>
+	<td>Proceedings of the 2017 IEEE International Conference on Software Quality, Reliability and Security, pp. 434-441&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -3294,7 +3446,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{poon2017cross,
   author = {Poon, Wai Nam and Bennin, Kwabena Ebo and Huang, Jianglin and Phannachitta, Passakorn and Keung, Jacky Wai},
   title = {Cross-project defect prediction using a credibility theory based naive bayes classifier},
-  booktitle = {2017 IEEE International Conference on Software Quality, Reliability and Security (QRS)},
+  booktitle = {Proceedings of the 2017 IEEE International Conference on Software Quality, Reliability and Security},
   year = {2017},
   pages = {434--441}
 }
@@ -3312,7 +3464,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 <td colspan="6"><b>BibTeX</b>:
 <pre>
 @article{radjenovic2013software,
-  author = {Radjenovi&cacute;, Danijel and Heri&ccaron;ko, Marjan and Torkar, Richard and &Zcaron;ivkovi&ccaron;, Ale&#154;},
+  author = {Radjenovi&cacute;, Danijel and Heri&ccaron;ko, Marjan and Torkar, Richard and &Zcaron;ivkovi&ccaron;, Ale&scaron;},
   title = {Software fault prediction metrics: A systematic literature review},
   journal = {Information and software technology},
   publisher = {Elsevier},
@@ -3610,7 +3762,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Shihab, E.</td>
 	<td>Practical software quality prediction <p class="infolinks">[<a href="javascript:toggleInfo('shihab2014practical','bibtex')">BibTeX</a>]</p></td>
 	<td>2014</td>
-	<td>2014 IEEE International Conference on Software Maintenance and Evolution, pp. 639-644&nbsp;</td>
+	<td>Proceedings of the 2014 IEEE International Conference on Software Maintenance and Evolution, pp. 639-644&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -3620,7 +3772,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{shihab2014practical,
   author = {Shihab, Emad},
   title = {Practical software quality prediction},
-  booktitle = {2014 IEEE International Conference on Software Maintenance and Evolution},
+  booktitle = {Proceedings of the 2014 IEEE International Conference on Software Maintenance and Evolution},
   year = {2014},
   pages = {639--644}
 }
@@ -3763,6 +3915,28 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="sliwerski2005changes" class="entry">
+	<td>&#346;liwerski, J., Zimmermann, T. and Zeller, A.</td>
+	<td>When do changes induce fixes? <p class="infolinks">[<a href="javascript:toggleInfo('sliwerski2005changes','bibtex')">BibTeX</a>]</p></td>
+	<td>2005</td>
+	<td><br/>Vol. 30(4)ACM sigsoft software engineering notes, pp. 1-5&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_sliwerski2005changes" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{sliwerski2005changes,
+  author = {&#346;liwerski, Jacek and Zimmermann, Thomas and Zeller, Andreas},
+  title = {When do changes induce fixes?},
+  booktitle = {ACM sigsoft software engineering notes},
+  year = {2005},
+  volume = {30},
+  number = {4},
+  pages = {1--5}
+}
+</pre></td>
+</tr>
 <tr id="sohn2017fluccs" class="entry">
 	<td>Sohn, J. and Yoo, S.</td>
 	<td>Fluccs: Using code and change metrics to improve fault localization <p class="infolinks">[<a href="javascript:toggleInfo('sohn2017fluccs','bibtex')">BibTeX</a>]</p></td>
@@ -3807,7 +3981,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Song, Q., Guo, Y. and Shepperd, M.</td>
 	<td>A comprehensive investigation of the role of imbalanced learning for software defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('song2018comprehensive','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -3819,7 +3993,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {A comprehensive investigation of the role of imbalanced learning for software defect prediction},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -3914,7 +4089,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Tantithamthavorn, C., Hassan, A.E. and Matsumoto, K.</td>
 	<td>The impact of class rebalancing techniques on the performance and interpretation of defect prediction models <p class="infolinks">[<a href="javascript:toggleInfo('tantithamthavorn2018impacttse','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -3926,7 +4101,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {The impact of class rebalancing techniques on the performance and interpretation of defect prediction models},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -3998,7 +4174,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Tantithamthavorn, C., McIntosh, S., Hassan, A.E. and Matsumoto, K.</td>
 	<td>The impact of automated parameter optimization on defect prediction models <p class="infolinks">[<a href="javascript:toggleInfo('tantithamthavorn2018impact','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4010,7 +4186,28 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {The impact of automated parameter optimization on defect prediction models},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
+}
+</pre></td>
+</tr>
+<tr id="tong2019kernel" class="entry">
+	<td>Tong, H., Liu, B. and Wang, S.</td>
+	<td>Kernel Spectral Embedding Transfer Ensemble for Heterogeneous Defect Prediction <p class="infolinks">[<a href="javascript:toggleInfo('tong2019kernel','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_tong2019kernel" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{tong2019kernel,
+  author = {Tong, Haonan and Liu, Bin and Wang, Shihai},
+  title = {Kernel Spectral Embedding Transfer Ensemble for Heterogeneous Defect Prediction},
+  journal = {IEEE Transactions on Software Engineering},
+  publisher = {IEEE},
+  year = {2019}
 }
 </pre></td>
 </tr>
@@ -4037,29 +4234,6 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
-<tr id="turhan2013empirical" class="entry">
-	<td>Turhan, B., M&imath;s&imath;rl&imath;, A.T. and Bener, A.</td>
-	<td>Empirical evaluation of the effects of mixed project data on learning defect predictors <p class="infolinks">[<a href="javascript:toggleInfo('turhan2013empirical','bibtex')">BibTeX</a>]</p></td>
-	<td>2013</td>
-	<td>Information and Software Technology<br/>Vol. 55(6), pp. 1101-1118&nbsp;</td>
-	<td>article</td>
-	<td>&nbsp;</td>
-</tr>
-<tr id="bib_turhan2013empirical" class="bibtex noshow">
-<td colspan="6"><b>BibTeX</b>:
-<pre>
-@article{turhan2013empirical,
-  author = {Turhan, Burak and M&imath;s&imath;rl&imath;, Ay&scedil;e Tosun and Bener, Ay&scedil;e},
-  title = {Empirical evaluation of the effects of mixed project data on learning defect predictors},
-  journal = {Information and Software Technology},
-  publisher = {Elsevier},
-  year = {2013},
-  volume = {55},
-  number = {6},
-  pages = {1101--1118}
-}
-</pre></td>
-</tr>
 <tr id="turhan2009relative" class="entry">
 	<td>Turhan, B., Menzies, T., Bener, A.B. and Di Stefano, J.</td>
 	<td>On the relative value of cross-company and within-company data for defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('turhan2009relative','bibtex')">BibTeX</a>]</p></td>
@@ -4083,11 +4257,54 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="turhan2013empirical" class="entry">
+	<td>Turhan, B., M&imath;s&imath;rl&imath;, A.T. and Bener, A.</td>
+	<td>Empirical evaluation of the effects of mixed project data on learning defect predictors <p class="infolinks">[<a href="javascript:toggleInfo('turhan2013empirical','bibtex')">BibTeX</a>]</p></td>
+	<td>2013</td>
+	<td>Information and Software Technology<br/>Vol. 55(6), pp. 1101-1118&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_turhan2013empirical" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{turhan2013empirical,
+  author = {Turhan, Burak and M&imath;s&imath;rl&imath;, Ay&scedil;e Tosun and Bener, Ay&scedil;e},
+  title = {Empirical evaluation of the effects of mixed project data on learning defect predictors},
+  journal = {Information and Software Technology},
+  publisher = {Elsevier},
+  year = {2013},
+  volume = {55},
+  number = {6},
+  pages = {1101--1118}
+}
+</pre></td>
+</tr>
+<tr id="valdivia2017characteristics" class="entry">
+	<td>Valdivia-Garcia, H. and Nagappan, M.</td>
+	<td>The Characteristics of False-Negatives in File-level Fault Prediction <p class="infolinks">[<a href="javascript:toggleInfo('valdivia2017characteristics','bibtex')">BibTeX</a>]</p></td>
+	<td>2017</td>
+	<td>Proceedings of the 13th International Conference on Predictive Models and Data Analytics in Software Engineering, pp. 73-82&nbsp;</td>
+	<td>inproceedings</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_valdivia2017characteristics" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@inproceedings{valdivia2017characteristics,
+  author = {Valdivia-Garcia, Harold and Nagappan, Meiyappan},
+  title = {The Characteristics of False-Negatives in File-level Fault Prediction},
+  booktitle = {Proceedings of the 13th International Conference on Predictive Models and Data Analytics in Software Engineering},
+  year = {2017},
+  pages = {73--82}
+}
+</pre></td>
+</tr>
 <tr id="walden2014predicting" class="entry">
 	<td>Walden, J., Stuckman, J. and Scandariato, R.</td>
 	<td>Predicting vulnerable components: Software metrics vs text mining <p class="infolinks">[<a href="javascript:toggleInfo('walden2014predicting','bibtex')">BibTeX</a>]</p></td>
 	<td>2014</td>
-	<td>Proceedings of the 2014 IEEE 25th international symposium on software reliability engineering, pp. 23-33&nbsp;</td>
+	<td>Proceedings of the 2014 IEEE 25th International Symposium on Software Reliability Engineering, pp. 23-33&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4097,7 +4314,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{walden2014predicting,
   author = {Walden, James and Stuckman, Jeff and Scandariato, Riccardo},
   title = {Predicting vulnerable components: Software metrics vs text mining},
-  booktitle = {Proceedings of the 2014 IEEE 25th international symposium on software reliability engineering},
+  booktitle = {Proceedings of the 2014 IEEE 25th International Symposium on Software Reliability Engineering},
   year = {2014},
   pages = {23--33}
 }
@@ -4107,7 +4324,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Wan, Z., Xia, X., Hassan, A.E., Lo, D., Yin, J. and Yang, X.</td>
 	<td>Perceptions, expectations, and challenges in defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('wan2018perceptions','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4119,7 +4336,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {Perceptions, expectations, and challenges in defect prediction},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -4147,7 +4365,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Wang, S., Liu, T., Nam, J. and Tan, L.</td>
 	<td>Deep semantic feature learning for software defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('wang2018deep','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4159,7 +4377,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {Deep semantic feature learning for software defect prediction},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -4316,7 +4535,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Xie, R., Chen, L., Ye, W., Li, Z., Hu, T., Du, D. and Zhang, S.</td>
 	<td>DeepLink: A Code Knowledge Graph Based Deep Learning Approach for Issue-Commit Link Recovery <p class="infolinks">[<a href="javascript:toggleInfo('xie2019deeplink','bibtex')">BibTeX</a>]</p></td>
 	<td>2019</td>
-	<td>2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 434-444&nbsp;</td>
+	<td>Proceedings of the 2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering, pp. 434-444&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4326,7 +4545,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{xie2019deeplink,
   author = {Xie, Rui and Chen, Long and Ye, Wei and Li, Zhiyu and Hu, Tianxiang and Du, Dongdong and Zhang, Shikun},
   title = {DeepLink: A Code Knowledge Graph Based Deep Learning Approach for Issue-Commit Link Recovery},
-  booktitle = {2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)},
+  booktitle = {Proceedings of the 2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering},
   year = {2019},
   pages = {434--444}
 }
@@ -4374,6 +4593,28 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="xu2019ldfr" class="entry">
+	<td>Xu, Z., Li, S., Xu, J., Liu, J., Luo, X., Zhang, Y., Zhang, T., Keung, J. and Tang, Y.</td>
+	<td>LDFR: Learning deep feature representation for software defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('xu2019ldfr','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>Journal of Systems and Software<br/>Vol. 158, pp. 110402&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_xu2019ldfr" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{xu2019ldfr,
+  author = {Xu, Zhou and Li, Shuai and Xu, Jun and Liu, Jin and Luo, Xiapu and Zhang, Yifeng and Zhang, Tao and Keung, Jacky and Tang, Yutian},
+  title = {LDFR: Learning deep feature representation for software defect prediction},
+  journal = {Journal of Systems and Software},
+  publisher = {Elsevier},
+  year = {2019},
+  volume = {158},
+  pages = {110402}
+}
+</pre></td>
+</tr>
 <tr id="xu2019software" class="entry">
 	<td>Xu, Z., Liu, J., Luo, X., Yang, Z., Zhang, Y., Yuan, P., Tang, Y. and Zhang, T.</td>
 	<td>Software defect prediction based on kernel PCA and weighted extreme learning machine <p class="infolinks">[<a href="javascript:toggleInfo('xu2019software','bibtex')">BibTeX</a>]</p></td>
@@ -4400,7 +4641,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Xu, Z., Liu, J., Luo, X. and Zhang, T.</td>
 	<td>Cross-version defect prediction via hybrid active learning with kernel principal component analysis <p class="infolinks">[<a href="javascript:toggleInfo('xu2018cross','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 209-220&nbsp;</td>
+	<td>Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering, pp. 209-220&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4410,7 +4651,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{xu2018cross,
   author = {Xu, Zhou and Liu, Jin and Luo, Xiapu and Zhang, Tao},
   title = {Cross-version defect prediction via hybrid active learning with kernel principal component analysis},
-  booktitle = {Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)},
+  booktitle = {Proceedings of the 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering},
   year = {2018},
   pages = {209--220}
 }
@@ -4420,7 +4661,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Xu, Z., Liu, J., Yang, Z., An, G. and Jia, X.</td>
 	<td>The impact of feature selection on defect prediction performance: An empirical comparison <p class="infolinks">[<a href="javascript:toggleInfo('xu2016impact','bibtex')">BibTeX</a>]</p></td>
 	<td>2016</td>
-	<td>2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE), pp. 309-320&nbsp;</td>
+	<td>Proceedings of the 2016 IEEE 27th International Symposium on Software Reliability Engineering, pp. 309-320&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4430,9 +4671,32 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{xu2016impact,
   author = {Xu, Zhou and Liu, Jin and Yang, Zijiang and An, Gege and Jia, Xiangyang},
   title = {The impact of feature selection on defect prediction performance: An empirical comparison},
-  booktitle = {2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE)},
+  booktitle = {Proceedings of the 2016 IEEE 27th International Symposium on Software Reliability Engineering},
   year = {2016},
   pages = {309--320}
+}
+</pre></td>
+</tr>
+<tr id="xu2019cross" class="entry">
+	<td>Xu, Z., Pang, S., Zhang, T., Luo, X.-P., Liu, J., Tang, Y.-T., Yu, X. and Xue, L.</td>
+	<td>Cross Project Defect Prediction via Balanced Distribution Adaptation Based Transfer Learning <p class="infolinks">[<a href="javascript:toggleInfo('xu2019cross','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>Journal of Computer Science and Technology<br/>Vol. 34(5), pp. 1039-1062&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_xu2019cross" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{xu2019cross,
+  author = {Xu, Zhou and Pang, Shuai and Zhang, Tao and Luo, Xia-Pu and Liu, Jin and Tang, Yu-Tian and Yu, Xiao and Xue, Lei},
+  title = {Cross Project Defect Prediction via Balanced Distribution Adaptation Based Transfer Learning},
+  journal = {Journal of Computer Science and Technology},
+  publisher = {Springer},
+  year = {2019},
+  volume = {34},
+  number = {5},
+  pages = {1039--1062}
 }
 </pre></td>
 </tr>
@@ -4505,7 +4769,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Yang, X., Lo, D., Xia, X., Zhang, Y. and Sun, J.</td>
 	<td>Deep learning for just-in-time defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('yang2015deep','bibtex')">BibTeX</a>]</p></td>
 	<td>2015</td>
-	<td>2015 IEEE International Conference on Software Quality, Reliability and Security, pp. 17-26&nbsp;</td>
+	<td>Proceedings of the 2015 IEEE International Conference on Software Quality, Reliability and Security, pp. 17-26&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4515,7 +4779,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{yang2015deep,
   author = {Yang, Xinli and Lo, David and Xia, Xin and Zhang, Yun and Sun, Jianling},
   title = {Deep learning for just-in-time defect prediction},
-  booktitle = {2015 IEEE International Conference on Software Quality, Reliability and Security},
+  booktitle = {Proceedings of the 2015 IEEE International Conference on Software Quality, Reliability and Security},
   year = {2015},
   pages = {17--26}
 }
@@ -4613,7 +4877,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Yu, T., Wen, W., Han, X. and Hayes, J.</td>
 	<td>ConPredictor: Concurrency Defect Prediction in Real-World Applications <p class="infolinks">[<a href="javascript:toggleInfo('yu2018conpredictor','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>IEEE Transactions on Software Engineering&nbsp;</td>
+	<td>IEEE Transactions on Software Engineering<br/>Vol. xx&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4625,7 +4889,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   title = {ConPredictor: Concurrency Defect Prediction in Real-World Applications},
   journal = {IEEE Transactions on Software Engineering},
   publisher = {IEEE},
-  year = {2018}
+  year = {2018},
+  volume = {xx}
 }
 </pre></td>
 </tr>
@@ -4649,11 +4914,31 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="yu2019improving" class="entry">
+	<td>Yu, X., Liu, J., Keung, J.W., Li, Q., Bennin, K.E., Xu, Z., Wang, J. and Cui, X.</td>
+	<td>Improving Ranking-Oriented Defect Prediction Using a Cost-Sensitive Ranking SVM <p class="infolinks">[<a href="javascript:toggleInfo('yu2019improving','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>IEEE Transactions on Reliability&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_yu2019improving" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{yu2019improving,
+  author = {Yu, Xiao and Liu, Jin and Keung, Jacky Wai and Li, Qing and Bennin, Kwabena Ebo and Xu, Zhou and Wang, Junping and Cui, Xiaohui},
+  title = {Improving Ranking-Oriented Defect Prediction Using a Cost-Sensitive Ranking SVM},
+  journal = {IEEE Transactions on Reliability},
+  publisher = {IEEE},
+  year = {2019}
+}
+</pre></td>
+</tr>
 <tr id="yu2017learning" class="entry">
 	<td>Yu, X., Liu, J., Yang, Z., Jia, X., Ling, Q. and Ye, S.</td>
 	<td>Learning from imbalanced data for predicting the number of software defects <p class="infolinks">[<a href="javascript:toggleInfo('yu2017learning','bibtex')">BibTeX</a>]</p></td>
 	<td>2017</td>
-	<td>2017 IEEE 28th International Symposium on Software Reliability Engineering (ISSRE), pp. 78-89&nbsp;</td>
+	<td>Proceedings of the 2017 IEEE 28th International Symposium on Software Reliability Engineering, pp. 78-89&nbsp;</td>
 	<td>inproceedings</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4663,7 +4948,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @inproceedings{yu2017learning,
   author = {Yu, Xiao and Liu, Jin and Yang, Zijiang and Jia, Xiangyang and Ling, Qi and Ye, Sizhe},
   title = {Learning from imbalanced data for predicting the number of software defects},
-  booktitle = {2017 IEEE 28th International Symposium on Software Reliability Engineering (ISSRE)},
+  booktitle = {Proceedings of the 2017 IEEE 28th International Symposium on Software Reliability Engineering},
   year = {2017},
   pages = {78--89}
 }
@@ -4755,6 +5040,28 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
+<tr id="zhou2019improving" class="entry">
+	<td>Zhou, T., Sun, X., Xia, X., Li, B. and Chen, X.</td>
+	<td>Improving defect prediction with deep forest <p class="infolinks">[<a href="javascript:toggleInfo('zhou2019improving','bibtex')">BibTeX</a>]</p></td>
+	<td>2019</td>
+	<td>Information and Software Technology<br/>Vol. 114, pp. 204-216&nbsp;</td>
+	<td>article</td>
+	<td>&nbsp;</td>
+</tr>
+<tr id="bib_zhou2019improving" class="bibtex noshow">
+<td colspan="6"><b>BibTeX</b>:
+<pre>
+@article{zhou2019improving,
+  author = {Zhou, Tianchi and Sun, Xiaobing and Xia, Xin and Li, Bin and Chen, Xiang},
+  title = {Improving defect prediction with deep forest},
+  journal = {Information and Software Technology},
+  publisher = {Elsevier},
+  year = {2019},
+  volume = {114},
+  pages = {204--216}
+}
+</pre></td>
+</tr>
 <tr id="zhou2006empirical" class="entry">
 	<td>Zhou, Y. and Leung, H.</td>
 	<td>Empirical analysis of object-oriented design metrics for predicting high and low severity faults <p class="infolinks">[<a href="javascript:toggleInfo('zhou2006empirical','bibtex')">BibTeX</a>]</p></td>
@@ -4782,7 +5089,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	<td>Zhou, Y., Yang, Y., Lu, H., Chen, L., Li, Y., Zhao, Y., Qian, J. and Xu, B.</td>
 	<td>How far we have progressed in the journey? an examination of cross-project defect prediction <p class="infolinks">[<a href="javascript:toggleInfo('zhou2018far','bibtex')">BibTeX</a>]</p></td>
 	<td>2018</td>
-	<td>ACM Transactions on Software Engineering and Methodology (TOSEM)<br/>Vol. 27(1), pp. 1&nbsp;</td>
+	<td>ACM Transactions on Software Engineering and Methodology<br/>Vol. 27(1), pp. 1&nbsp;</td>
 	<td>article</td>
 	<td>&nbsp;</td>
 </tr>
@@ -4792,7 +5099,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 @article{zhou2018far,
   author = {Zhou, Yuming and Yang, Yibiao and Lu, Hongmin and Chen, Lin and Li, Yanhui and Zhao, Yangyang and Qian, Junyan and Xu, Baowen},
   title = {How far we have progressed in the journey? an examination of cross-project defect prediction},
-  journal = {ACM Transactions on Software Engineering and Methodology (TOSEM)},
+  journal = {ACM Transactions on Software Engineering and Methodology},
   publisher = {ACM},
   year = {2018},
   volume = {27},
