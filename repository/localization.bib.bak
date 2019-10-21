@@ -1,0 +1,146 @@
+% Encoding: GBK
+
+@Article{Wen:TSE2019,
+  author    = {Ming Wen ; Junjie Chen ; Yongqiang Tian ; Rongxin Wu ; Dan Hao ; Shi Han ; S.C. Cheung},
+  title     = {Historical Spectrum based Fault Localization},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2019},
+  owner     = {Lenovo},
+  timestamp = {2019.10.18},
+}
+
+@Article{zou2019empirical,
+  author    = {Zou, Daming and Liang, Jingjing and Xiong, Yingfei and Ernst, Michael D and Zhang, Lu},
+  title     = {An empirical study of fault localization families and their combinations},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2019},
+  publisher = {IEEE},
+}
+
+@InProceedings{Jiang:ASE2019,
+  author    = {Jiajun Jiang and Ran Wang and Yingfei Xiong and Xiangping Chen and Lu Zhang.},
+  title     = {Combining Spectrum-Based Fault Localization and Statistical Debugging: An Empirical Study},
+  booktitle = {Proceedings of 34th IEEE/ACM International Conference on Automated Software Engineering},
+  year      = {2019},
+  owner     = {Lenovo},
+  timestamp = {2019.10.18},
+}
+
+@InProceedings{li2019deepfl,
+  author       = {Li, Xia and Li, Wei and Zhang, Yuqun and Zhang, Lingming},
+  title        = {DeepFL: integrating multiple fault diagnosis dimensions for deep fault localization},
+  booktitle    = {Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  year         = {2019},
+  pages        = {169--180},
+  organization = {ACM},
+}
+
+@Article{zhang2019empirical,
+  author    = {Zhang, Mengshi and Li, Yaoxian and Li, Xia and Chen, Lingchao and Zhang, Yuqun and Zhang, Lingming and Khurshid, Sarfraz},
+  title     = {An Empirical Study of Boosting Spectrum-based Fault Localization via PageRank},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2019},
+  publisher = {IEEE},
+}
+
+@Article{heiden2019evaluation,
+  author    = {Heiden, Simon and Grunske, Lars and Kehrer, Timo and Keller, Fabian and van Hoorn, Andre and Filieri, Antonio and Lo, David},
+  title     = {An evaluation of pure spectrum-based fault localization techniques for large-scale software systems},
+  journal   = {Software: Practice and Experience},
+  year      = {2019},
+  volume    = {49},
+  number    = {8},
+  pages     = {1197--1224},
+  publisher = {Wiley Online Library},
+}
+
+@InProceedings{just2018comparing,
+  author       = {Just, Ren{\'e} and Parnin, Chris and Drosos, Ian and Ernst, Michael D},
+  title        = {Comparing developer-provided to user-provided tests for fault localization and automated program repair},
+  booktitle    = {Proceedings of the 27th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  year         = {2018},
+  pages        = {287--297},
+  organization = {ACM},
+}
+
+@Article{ghandehari2018combinatorial,
+  author    = {Ghandehari, Laleh Sh and Lei, Yu and Kacker, Raghu and Kuhn, D Richard Rick and Kung, David and Xie, Tao},
+  title     = {A combinatorial testing-based approach to fault localization},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2018},
+  publisher = {IEEE},
+}
+
+@InProceedings{pearson2017evaluating,
+  author       = {Pearson, Spencer and Campos, Jos{\'e} and Just, Ren{\'e} and Fraser, Gordon and Abreu, Rui and Ernst, Michael D and Pang, Deric and Keller, Benjamin},
+  title        = {Evaluating and improving fault localization},
+  booktitle    = {Proceedings of the 39th International Conference on Software Engineering},
+  year         = {2017},
+  pages        = {609--620},
+  organization = {IEEE Press},
+}
+
+@InProceedings{perez2017test,
+  author       = {Perez, Alexandre and Abreu, Rui and van Deursen, Arie},
+  title        = {A test-suite diagnosability metric for spectrum-based fault localization approaches},
+  booktitle    = {Proceedings of the 39th International Conference on Software Engineering},
+  year         = {2017},
+  pages        = {654--664},
+  organization = {IEEE Press},
+}
+
+@InProceedings{hong2015mutation,
+  author       = {Hong, Shin and Lee, Byeongcheol and Kwak, Taehoon and Jeon, Yiru and Ko, Bongsuk and Kim, Yunho and Kim, Moonzoo},
+  title        = {Mutation-based fault localization for real-world multilingual programs (T)},
+  booktitle    = {2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  year         = {2015},
+  pages        = {464--475},
+  organization = {IEEE},
+}
+
+@InProceedings{sohn2017fluccs,
+  author       = {Sohn, Jeongju and Yoo, Shin},
+  title        = {Fluccs: Using code and change metrics to improve fault localization},
+  booktitle    = {Proceedings of the 26th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  year         = {2017},
+  pages        = {273--283},
+  organization = {ACM},
+}
+
+@InProceedings{b2016learning,
+  author       = {B Le, Tien-Duy and Lo, David and Le Goues, Claire and Grunske, Lars},
+  title        = {A learning-to-rank based fault localization approach using likely invariants},
+  booktitle    = {Proceedings of the 25th International Symposium on Software Testing and Analysis},
+  year         = {2016},
+  pages        = {177--188},
+  organization = {ACM},
+}
+
+@InProceedings{ribeiro2018jaguar,
+  author       = {Ribeiro, Henrique Lemos and de Souza, Higor Amario and de Araujo, Roberto Paulo Andrioli and Chaim, Marcos Lordello and Kon, Fabio},
+  title        = {Jaguar: a spectrum-based fault localization tool for real-world software},
+  booktitle    = {2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST)},
+  year         = {2018},
+  pages        = {404--409},
+  organization = {IEEE},
+}
+
+@InProceedings{liu2019you,
+  author       = {Liu, Kui and Koyuncu, Anil and Bissyand{\'e}, Tegawend{\'e} F and Kim, Dongsun and Klein, Jacques and Le Traon, Yves},
+  title        = {You cannot fix what you cannot find! an investigation of fault localization bias in benchmarking automated program repair systems},
+  booktitle    = {2019 12th IEEE Conference on Software Testing, Validation and Verification (ICST)},
+  year         = {2019},
+  pages        = {102--113},
+  organization = {IEEE},
+}
+
+@InProceedings{de2018ftmes,
+  author       = {de Oliveira, Andr{\'e} Assis L{\^o}bo and Camilo-Junior, Celso Gon{\c{c}}alves and de Andrade Freitas, Eduardo Noronha and Vincenzi, Auri Marcelo Rizzo},
+  title        = {FTMES: A Failed-Test-Oriented Mutant Execution Strategy for Mutation-Based Fault Localization},
+  booktitle    = {2018 IEEE 29th International Symposium on Software Reliability Engineering (ISSRE)},
+  year         = {2018},
+  pages        = {155--165},
+  organization = {IEEE},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
