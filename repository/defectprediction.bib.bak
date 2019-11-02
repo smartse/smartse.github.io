@@ -27,6 +27,16 @@
   organization = {ACM},
 }
 
+@Article{aziz2019experimental,
+  author    = {Aziz, Syed Rashid and Khan, Tamim and Nadeem, Aamer},
+  title     = {Experimental Validation of Inheritance Metrics’ Impact on Software Fault Prediction},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {85262--85275},
+  publisher = {IEEE},
+}
+
 @Article{bennin2019relative,
   author    = {Bennin, Kwabena Ebo and Keung, Jacky W and Monden, Akito},
   title     = {On the relative value of data resampling approaches for software defect prediction},
@@ -49,6 +59,26 @@
   organization = {IEEE Press},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
+}
+
+@Article{cai:joc2019,
+  author  = {Cai, Liang and Fan, Yuan Rui and Yan, Meng and Xia, Xin},
+  title   = {即时软件缺陷预测研究进展},
+  journal = {软件学报},
+  year    = {2019},
+  volume  = {30},
+  number  = {5},
+  pages   = {1288--1307},
+}
+
+@Article{chen2019multiview,
+  author    = {Chen, Jinyin and Yang, Yitao and Hu, Keke and Xuan, Qi and Liu, Yi and Yang, Chao},
+  title     = {Multiview Transfer Learning for Software Defect Prediction},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {8901--8916},
+  publisher = {IEEE},
 }
 
 @Article{Chen:JSEP2019,
@@ -140,6 +170,16 @@
   publisher = {IEEE},
 }
 
+@Article{gong2019tackling,
+  author    = {Gong, Lina and Jiang, Shujuan and Jiang, Li},
+  title     = {Tackling Class Imbalance Problem in Software Defect Prediction Through Cluster-Based Over-Sampling With Filtering},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {145725--145737},
+  publisher = {IEEE},
+}
+
 @Article{gongimproved,
   author    = {Gong, Lina and Jiang, Shujuan and Jiang, Li},
   title     = {An improved transfer adaptive boosting approach for mixed-project defect prediction},
@@ -149,6 +189,16 @@
   owner     = {Lenovo},
   publisher = {Wiley Online Library},
   timestamp = {2019.10.16},
+}
+
+@Article{he2019ensemble,
+  author    = {He, Haitao and Zhang, Xu and Wang, Qian and Ren, Jiadong and Liu, Jiaxin and Zhao, Xiaolin and Cheng, Yongqiang},
+  title     = {Ensemble MultiBoost Based on RIPPER Classifier for Prediction of Imbalanced Software Defect Data},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {110333--110343},
+  publisher = {IEEE},
 }
 
 @InProceedings{hoang2019deepjit,
@@ -238,6 +288,16 @@
   timestamp    = {2019.10.16},
 }
 
+@Article{juneja2019fuzzy,
+  author    = {Juneja, Kapil},
+  title     = {A fuzzy-filtered neuro-fuzzy framework for software fault prediction for inter-version and inter-project evaluation},
+  journal   = {Applied Soft Computing},
+  year      = {2019},
+  volume    = {77},
+  pages     = {696--713},
+  publisher = {Elsevier},
+}
+
 @InProceedings{kabir2019assessing,
   author       = {Kabir, Md Alamgir and Keung, Jacky W and Benniny, Kwabena E and Zhang, Miao},
   title        = {Assessing the Significant Impact of Concept Drift in Software Defect Prediction},
@@ -248,24 +308,22 @@
   organization = {IEEE},
 }
 
-@Article{kayaimpact,
+@InProceedings{Hongjin:ase2019,
+  author    = {Kang, Hong Jin and Bissyand{\'e}, Tegawend{\'e} F and Lo, David},
+  title     = {Assessing the Generalizability of code2vec Token Embeddings},
+  booktitle = {Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering},
+  year      = {2019},
+  owner     = {Lenovo},
+  timestamp = {2019.10.26},
+}
+
+@Article{kayaimpact:2019,
   author    = {Kaya, Aydin and Keceli, Ali Seydi and Catal, Cagatay and Tekinerdogan, Bedir},
   title     = {The impact of feature types, classifiers, and data balancing techniques on software vulnerability prediction models},
   journal   = {Journal of Software: Evolution and Process},
   year      = {2019},
   pages     = {e2164},
   publisher = {Wiley Online Library},
-}
-
-@Article{kim2019precise,
-  author    = {Kim, Yunho and Mun, Seokhyeon and Yoo, Shin and Kim, Moonzoo},
-  title     = {Precise Learn-to-Rank Fault Localization Using Dynamic and Static Features of Target Programs},
-  journal   = {ACM Transactions on Software Engineering and Methodology},
-  year      = {2019},
-  volume    = {28},
-  number    = {4},
-  pages     = {23},
-  publisher = {ACM},
 }
 
 @Article{kim2019precise,
@@ -319,6 +377,23 @@
   timestamp = {2019.10.16},
 }
 
+@Article{li2019systematic,
+  author  = {Li, Ning and Shepperd, Martin and Guo, Yuchen},
+  title   = {A systematic review of unsupervised learning techniques for software defect prediction},
+  journal = {arXiv preprint arXiv:1907.12027},
+  year    = {2019},
+}
+
+@Article{li2019using,
+  author    = {Li, Yihao and Wong, W Eric and Lee, Shou-Yu and Wotawa, Franz},
+  title     = {Using Tri-Relation Networks for Effective Software Fault-Proneness Prediction},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {63066--63080},
+  publisher = {IEEE},
+}
+
 @Article{li2019heterogeneous,
   author    = {Li, Zhiqiang and Jing, Xiao-Yuan and Zhu, Xiaoke and Zhang, Hongyu and Xu, Baowen and Ying, Shi},
   title     = {Heterogeneous defect prediction with two-stage ensemble learning},
@@ -328,6 +403,16 @@
   owner     = {Lenovo},
   publisher = {Springer},
   timestamp = {2019.10.16},
+}
+
+@Article{liang2019seml,
+  author    = {Liang, Hongliang and Yu, Yue and Jiang, Lin and Xie, Zhuosi},
+  title     = {Seml: A Semantic LSTM Model for Software Defect Prediction},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {83812--83824},
+  publisher = {IEEE},
 }
 
 @Article{liu2019two,
@@ -340,6 +425,16 @@
   owner     = {Lenovo},
   publisher = {Elsevier},
   timestamp = {2019.10.16},
+}
+
+@Article{malhotra2019empirical,
+  author    = {Malhotra, Ruchika and Kamal, Shine},
+  title     = {An empirical study to investigate oversampling methods for improving software defect prediction using imbalanced data},
+  journal   = {Neurocomputing},
+  year      = {2019},
+  volume    = {343},
+  pages     = {120--140},
+  publisher = {Elsevier},
 }
 
 @Article{mori2019balancing,
@@ -396,6 +491,16 @@
   publisher = {Springer},
 }
 
+@Article{qiu2019automatic,
+  author    = {Qiu, Yu and Liu, Yun and Liu, Ao and Zhu, Jingwen and Xu, Jing},
+  title     = {Automatic Feature Exploration and an Application in Defect Prediction},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {112097--112112},
+  publisher = {IEEE},
+}
+
 @Article{qu2019using,
   author    = {Qu, Yu and Zheng, Qinghua and Chi, Jianlei and Jin, Yangxu and He, Ancheng and Cui, Di and Zhang, Hengshan and Liu, Ting},
   title     = {Using K-core Decomposition on Class Dependency Networks to Improve Bug Prediction Model's Practical Performance},
@@ -409,6 +514,16 @@
   title     = {Impact of Discretization Noise of the Dependent variable on Machine Learning Classifiers in Software Engineering},
   journal   = {IEEE Transactions on Software Engineering},
   year      = {2019},
+  publisher = {IEEE},
+}
+
+@Article{rizwan2019analyses,
+  author    = {Rizwan, Muhammad and Nadeem, Aamer and Sindhu, Muddassar Azam},
+  title     = {Analyses of Classifier’s Performance Measures Used in Software Fault Prediction Studies},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {82764--82775},
   publisher = {IEEE},
 }
 
@@ -449,6 +564,16 @@
   journal   = {IEEE Transactions on Software Engineering},
   year      = {2019},
   publisher = {IEEE},
+}
+
+@Article{turabieh2019iterated,
+  author    = {Turabieh, Hamza and Mafarja, Majdi and Li, Xiaodong},
+  title     = {Iterated feature selection algorithms with layered recurrent neural network for software fault prediction},
+  journal   = {Expert Systems with Applications},
+  year      = {2019},
+  volume    = {122},
+  pages     = {27--42},
+  publisher = {Elsevier},
 }
 
 @InProceedings{wen2019exploring,
@@ -518,7 +643,17 @@
   publisher = {Springer},
 }
 
-@InProceedings{yu2019empirical,
+@Article{yu2019empirical,
+  author    = {Yu, Qiao and Qian, Junyan and Jiang, Shujuan and Wu, Zhenhua and Zhang, Gongjie},
+  title     = {An Empirical Study on the Effectiveness of Feature Selection for Cross-Project Defect Prediction},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {35710--35718},
+  publisher = {IEEE},
+}
+
+@InProceedings{yu2019empirical1,
   author       = {Yu, Xiao and Bennin, Kwabena Ebo and Liu, Jin and Keung, Jacky Wai and Yin, Xiaofei and Xu, Zhou},
   title        = {An Empirical Study of Learning to Rank Techniques for Effort-Aware Defect Prediction},
   booktitle    = {Proceedings of the 2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering},
@@ -537,6 +672,25 @@
   publisher = {IEEE},
 }
 
+@Article{Yu:TSE2019,
+  author   = {Z. {Yu} and C. {Theisen} and L. {Williams} and T. {Menzies}},
+  title    = {Improving Vulnerability Inspection Efficiency Using Active Learning},
+  journal  = {IEEE Transactions on Software Engineering},
+  year     = {2019},
+  pages    = {1-1},
+  doi      = {10.1109/TSE.2019.2949275},
+  keywords = {Inspection;Software;Tools;Security;Predictive models;Error correction;NIST;Active learning;security;vulnerabilities;software engineering;error correction},
+}
+
+@InProceedings{zhang2019novel,
+  author       = {Zhang, Jian and Wang, Xu and Zhang, Hongyu and Sun, Hailong and Wang, Kaixuan and Liu, Xudong},
+  title        = {A novel neural source code representation based on abstract syntax tree},
+  booktitle    = {Proceedings of the 41st International Conference on Software Engineering},
+  year         = {2019},
+  pages        = {783--794},
+  organization = {IEEE Press},
+}
+
 @Article{zhang2019file,
   author    = {Zhang, Weiqiang and Cheung, Shing-Chi and Chen, Zhenyu and Zhou, Yuming and Luo, Bin},
   title     = {File-level socio-technical congruence and its relationship with bug proneness in OSS projects},
@@ -544,6 +698,16 @@
   year      = {2019},
   volume    = {156},
   pages     = {21--40},
+  publisher = {Elsevier},
+}
+
+@Article{zhao2019software,
+  author    = {Zhao, Linchang and Shang, Zhaowei and Zhao, Ling and Zhang, Taiping and Tang, Yuan Yan},
+  title     = {Software defect prediction via cost-sensitive Siamese parallel fully-connected neural networks},
+  journal   = {Neurocomputing},
+  year      = {2019},
+  volume    = {352},
+  pages     = {64--74},
   publisher = {Elsevier},
 }
 
@@ -555,6 +719,16 @@
   volume    = {114},
   pages     = {204--216},
   publisher = {Elsevier},
+}
+
+@Article{ni:jos2019,
+  author  = {倪超 and 陈翔 and 刘望舒 and 顾庆 and 黄启国 and 李娜},
+  title   = {基于特征迁移和实例迁移的跨项目缺陷预测方法},
+  journal = {软件学报},
+  year    = {2019},
+  volume  = {30},
+  number  = {5},
+  pages   = {1308--1329},
 }
 
 @Article{ozakinci2018early,
@@ -595,6 +769,26 @@
   year         = {2018},
   pages        = {32--41},
   organization = {ACM},
+}
+
+@Article{arshad2018empirical,
+  author    = {Arshad, Ali and Riaz, Saman and Jiao, Licheng and Murthy, Aparna},
+  title     = {The empirical study of semi-supervised deep fuzzy c-mean clustering for software fault prediction},
+  journal   = {IEEE Access},
+  year      = {2018},
+  volume    = {6},
+  pages     = {47047--47061},
+  publisher = {IEEE},
+}
+
+@Article{arshad2018semi,
+  author    = {Arshad, Ali and Riaz, Saman and Jiao, Licheng and Murthy, Aparna},
+  title     = {Semi-supervised deep fuzzy c-mean clustering for software fault prediction},
+  journal   = {IEEE Access},
+  year      = {2018},
+  volume    = {6},
+  pages     = {25675--25685},
+  publisher = {IEEE},
 }
 
 @Article{boucher2018software,
@@ -684,6 +878,16 @@
   owner     = {Lenovo},
   publisher = {Elsevier},
   timestamp = {2019.10.16},
+}
+
+@Article{huda2018ensemble,
+  author    = {Huda, Shamsul and Liu, Kevin and Abdelrazek, Mohamed and Ibrahim, Amani and Alyahya, Sultan and Al-Dossari, Hmood and Ahmad, Shafiq},
+  title     = {An ensemble oversampling model for class imbalance problem in software defect prediction},
+  journal   = {IEEE access},
+  year      = {2018},
+  volume    = {6},
+  pages     = {24184--24195},
+  publisher = {IEEE},
 }
 
 @InProceedings{huo2018learning,
@@ -868,6 +1072,16 @@
   timestamp = {2019.10.16},
 }
 
+@Article{riaz2018rough,
+  author    = {Riaz, Saman and Arshad, Ali and Jiao, Licheng},
+  title     = {Rough noise-filtered easy ensemble for software fault prediction},
+  journal   = {IEEE Access},
+  year      = {2018},
+  volume    = {6},
+  pages     = {46886--46899},
+  publisher = {IEEE},
+}
+
 @Article{song2018comprehensive,
   author    = {Song, Qinbao and Guo, Yuchen and Shepperd, Martin},
   title     = {A comprehensive investigation of the role of imbalanced learning for software defect prediction},
@@ -1028,6 +1242,16 @@
   timestamp    = {2019.10.16},
 }
 
+@Article{xu2018hda,
+  author    = {Xu, Zhou and Yuan, Peipei and Zhang, Tao and Tang, Yutian and Li, Shuai and Xia, Zhen},
+  title     = {HDA: Cross-Project Defect Prediction via Heterogeneous Domain Adaptation With Dictionary Learning},
+  journal   = {IEEE access},
+  year      = {2018},
+  volume    = {6},
+  pages     = {57597--57613},
+  publisher = {IEEE},
+}
+
 @Article{yang2018ridge,
   author    = {Yang, Xiaoxing and Wen, Wushao},
   title     = {Ridge and Lasso Regression Models for Cross-Version Defect Prediction},
@@ -1069,6 +1293,16 @@
   organization = {IEEE},
 }
 
+@Article{zhao2018siamese,
+  author    = {Zhao, Linchang and Shang, Zhaowei and Zhao, Ling and Qin, Anyong and Tang, Yuan Yan},
+  title     = {Siamese Dense Neural Network for Software Defect Prediction With Small Data},
+  journal   = {IEEE Access},
+  year      = {2018},
+  volume    = {7},
+  pages     = {7663--7677},
+  publisher = {IEEE},
+}
+
 @Article{zhou2018far,
   author    = {Zhou, Yuming and Yang, Yibiao and Lu, Hongmin and Chen, Lin and Li, Yanhui and Zhao, Yangyang and Qian, Junyan and Xu, Baowen},
   title     = {How far we have progressed in the journey? an examination of cross-project defect prediction},
@@ -1091,6 +1325,36 @@
   number    = {11},
   pages     = {1968--1999},
   publisher = {Wiley Online Library},
+}
+
+@Article{陈翔2018跨项目软件缺陷预测方法研究综述,
+  author  = {陈翔 and 王莉萍 and 顾庆 and 王赞 and 倪超 and 刘望舒 and 王秋萍},
+  title   = {跨项目软件缺陷预测方法研究综述},
+  journal = {计算机学报},
+  year    = {2018},
+  volume  = {41},
+  number  = {1},
+  pages   = {254--274},
+}
+
+@Article{Liu:JOC2018,
+  author  = {刘望舒 and 陈翔 and 顾庆 and 刘树龙 and 陈道蓄},
+  title   = {一种面向软件缺陷预测的可容忍噪声的特征选择框架},
+  journal = {计算机学报},
+  year    = {2018},
+  volume  = {41},
+  number  = {3},
+  pages   = {506--520},
+}
+
+@Article{yu:JOC2018,
+  author  = {于巧 and 姜淑娟 and 张艳梅 and 王兴亚 and 高鹏飞 and 钱俊彦},
+  title   = {分类不平衡对软件缺陷预测模型性能的影响研究},
+  journal = {计算机学报},
+  year    = {2018},
+  volume  = {41},
+  number  = {4},
+  pages   = {809--824},
 }
 
 @Article{ozturk2017type,
@@ -1119,6 +1383,16 @@
   year         = {2017},
   pages        = {93--96},
   organization = {ACM},
+}
+
+@Article{arar2017feature,
+  author    = {Arar, {\"O}mer Faruk and Ayan, K{\"u}r{\c{s}}at},
+  title     = {A feature dependent Naive Bayes approach and its application to the software defect prediction problem},
+  journal   = {Applied Soft Computing},
+  year      = {2017},
+  volume    = {59},
+  pages     = {197--209},
+  publisher = {Elsevier},
 }
 
 @InProceedings{arvanitou2017method,
@@ -1183,6 +1457,16 @@
   year         = {2017},
   pages        = {80--90},
   organization = {IEEE},
+}
+
+@Article{felix2017integrated,
+  author    = {Felix, Ebubeogu Amarachukwu and Lee, Sai Peck},
+  title     = {Integrated approach to software defect prediction},
+  journal   = {IEEE Access},
+  year      = {2017},
+  volume    = {5},
+  pages     = {21524--21547},
+  publisher = {IEEE},
 }
 
 @InProceedings{fu2017revisiting,
@@ -1268,6 +1552,16 @@
   timestamp    = {2019.10.16},
 }
 
+@Article{huda2017framework,
+  author    = {Huda, Shamsul and Alyahya, Sultan and Ali, Md Mohsin and Ahmad, Shafiq and Abawajy, Jemal and Al-Dossari, Hmood and Yearwood, John},
+  title     = {A Framework for Software Defect Prediction and Metric Selection},
+  journal   = {IEEE access},
+  year      = {2017},
+  volume    = {6},
+  pages     = {2844--2858},
+  publisher = {IEEE},
+}
+
 @InProceedings{li2017software,
   author       = {Li, Jian and He, Pinjia and Zhu, Jieming and Lyu, Michael R},
   title        = {Software defect prediction via convolutional neural network},
@@ -1277,6 +1571,16 @@
   organization = {IEEE},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
+}
+
+@Article{li2017evaluating,
+  author    = {Li, Yong and Huang, Zhiqiu and Wang, Yong and Fang, Bingwu},
+  title     = {Evaluating data filter on cross-project defect prediction: Comparison and improvements},
+  journal   = {IEEE Access},
+  year      = {2017},
+  volume    = {5},
+  pages     = {25646--25656},
+  publisher = {IEEE},
 }
 
 @InProceedings{li2017heterogeneous,
@@ -1330,6 +1634,26 @@
   owner     = {Lenovo},
   publisher = {Springer},
   timestamp = {2019.10.16},
+}
+
+@Article{malhotra2017application,
+  author    = {Malhotra, Ruchika and Khanna, Megha and Raje, Rajeev R},
+  title     = {On the application of search-based techniques for software engineering predictive modeling: A systematic review and future directions},
+  journal   = {Swarm and Evolutionary Computation},
+  year      = {2017},
+  volume    = {32},
+  pages     = {85--109},
+  publisher = {Elsevier},
+}
+
+@Article{mauvsa2017co,
+  author    = {Mau{\v{s}}a, Goran and Grbac, Tihana Galinac},
+  title     = {Co-evolutionary multi-population genetic programming for classification in software defect prediction: An empirical case study},
+  journal   = {Applied soft computing},
+  year      = {2017},
+  volume    = {55},
+  pages     = {331--351},
+  publisher = {Elsevier},
 }
 
 @Article{mcintosh2017fix,
@@ -1402,6 +1726,14 @@
   owner     = {Lenovo},
   publisher = {IEEE},
   timestamp = {2019.10.16},
+}
+
+@Article{peters2017text,
+  author    = {Peters, Fayola and Tun, Thein and Yu, Yijun and Nuseibeh, Bashar},
+  title     = {Text filtering and ranking for security bug report prediction},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2017},
+  publisher = {IEEE},
 }
 
 @InProceedings{poon2017cross,
@@ -1569,6 +1901,26 @@
   number    = {2},
   pages     = {393--453},
   publisher = {Springer},
+}
+
+@Article{fu:JRD2017,
+  author  = {傅艺绮 and 董威 and 尹良泽 and 杜雨晴},
+  title   = {基于组合机器学习算法的软件缺陷预测模型},
+  journal = {计算机研究与发展},
+  year    = {2017},
+  volume  = {54},
+  number  = {3},
+  pages   = {633--641},
+}
+
+@Article{he:JOS2017,
+  author  = {何吉元 and 孟昭鹏 and 陈翔 and 王赞 and 樊向宇},
+  title   = {一种半监督集成跨项目软件缺陷预测方法},
+  journal = {软件学报},
+  year    = {2017},
+  volume  = {28},
+  number  = {6},
+  pages   = {1455--1473},
 }
 
 @Article{andreou2016software,
@@ -1748,6 +2100,16 @@
   timestamp = {2019.10.16},
 }
 
+@Article{li2016three,
+  author    = {Li, Weiwei and Huang, Zhiqiu and Li, Qing},
+  title     = {Three-way decisions based software defect prediction},
+  journal   = {Knowledge-Based Systems},
+  year      = {2016},
+  volume    = {91},
+  pages     = {263--274},
+  publisher = {Elsevier},
+}
+
 @Article{ma2016empirical,
   author    = {Ma, Wanwangying and Chen, Lin and Yang, Yibiao and Zhou, Yuming and Xu, Baowen},
   title     = {Empirical analysis of network measures for effort-aware fault-proneness prediction},
@@ -1768,6 +2130,16 @@
   owner     = {Lenovo},
   publisher = {Elsevier},
   timestamp = {2019.10.16},
+}
+
+@Article{mesquita2016classification,
+  author    = {Mesquita, Diego PP and Rocha, Lincoln S and Gomes, Jo{\~a}o Paulo P and Neto, Ajalmar R Rocha},
+  title     = {Classification with reject option for software defect prediction},
+  journal   = {Applied Soft Computing},
+  year      = {2016},
+  volume    = {49},
+  pages     = {1085--1093},
+  publisher = {Elsevier},
 }
 
 @InProceedings{mezouar2016local,
@@ -1807,6 +2179,16 @@
   organization = {IEEE},
 }
 
+@Article{ryu2016effective,
+  author    = {Ryu, Duksan and Baik, Jongmoon},
+  title     = {Effective multi-objective na{\"\i}ve Bayes learning for cross-project defect prediction},
+  journal   = {Applied Soft Computing},
+  year      = {2016},
+  volume    = {49},
+  pages     = {1062--1077},
+  publisher = {Elsevier},
+}
+
 @Article{ryu2016value,
   author    = {Ryu, Duksan and Choi, Okjoo and Baik, Jongmoon},
   title     = {Value-cognitive boosting with a support vector machine for cross-project defect prediction},
@@ -1818,6 +2200,15 @@
   owner     = {Lenovo},
   publisher = {Springer},
   timestamp = {2019.10.16},
+}
+
+@InProceedings{sarro2016multi,
+  author       = {Sarro, Federica and Petrozziello, Alessio and Harman, Mark},
+  title        = {Multi-objective software effort estimation},
+  booktitle    = {2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)},
+  year         = {2016},
+  pages        = {619--630},
+  organization = {IEEE},
 }
 
 @InProceedings{shippey2016so,
@@ -2028,6 +2419,35 @@
   organization = {ACM},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
+}
+
+@Article{chen:JOS2016,
+  author  = {陈翔 and 顾庆 and 刘望舒 and 刘树龙 and 倪超},
+  title   = {静态软件缺陷预测方法研究},
+  journal = {软件学报},
+  year    = {2016},
+  number  = {1},
+  pages   = {1--25},
+}
+
+@Article{wang:JOS2016,
+  author  = {王丹丹 and 王青},
+  title   = {基于演化数据的软件缺陷预测性能改进},
+  journal = {软件学报},
+  year    = {2016},
+  volume  = {27},
+  number  = {12},
+  pages   = {3014--3029},
+}
+
+@Article{arar2015software,
+  author    = {Arar, {\"O}mer Faruk and Ayan, K{\"u}r{\c{s}}at},
+  title     = {Software defect prediction using cost-sensitive neural network},
+  journal   = {Applied Soft Computing},
+  year      = {2015},
+  volume    = {33},
+  pages     = {263--277},
+  publisher = {Elsevier},
 }
 
 @Article{bettenburg2015towards,
@@ -2255,6 +2675,16 @@
   organization = {IEEE},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
+}
+
+@Article{rana2015improving,
+  author    = {Rana, Zeeshan Ali and Mian, M Awais and Shamail, Shafay},
+  title     = {Improving Recall of software defect prediction models using association mining},
+  journal   = {Knowledge-Based Systems},
+  year      = {2015},
+  volume    = {90},
+  pages     = {1--13},
+  publisher = {Elsevier},
 }
 
 @Article{ryu2015hybrid,
@@ -2494,6 +2924,15 @@
   organization = {ACM},
 }
 
+@InProceedings{russo2014proposed,
+  author       = {Russo, Barbara},
+  title        = {A proposed method to evaluate and compare fault predictions across studies},
+  booktitle    = {Proceedings of the 10th International Conference on Predictive Models in Software Engineering},
+  year         = {2014},
+  pages        = {2--11},
+  organization = {ACM},
+}
+
 @Article{scandariato2014predicting,
   author    = {Scandariato, Riccardo and Walden, James and Hovsepyan, Aram and Joosen, Wouter},
   title     = {Predicting vulnerable software components via text mining},
@@ -2604,6 +3043,16 @@
   number    = {1},
   pages     = {10},
   publisher = {ACM},
+}
+
+@Article{yuanzi:JOS2014,
+  author  = {原子 and 于莉莉 and 刘超},
+  title   = {面向细粒度源代码变更的缺陷预测方法},
+  journal = {软件学报},
+  year    = {2014},
+  volume  = {25},
+  number  = {11},
+  pages   = {2499--2517},
 }
 
 @Article{bell2013limited,
