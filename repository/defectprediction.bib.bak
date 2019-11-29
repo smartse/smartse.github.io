@@ -57,6 +57,13 @@
   publisher = {IEEE},
 }
 
+@Article{bangash2019time,
+  author  = {Bangash, Abdul Ali and Sahar, Hareem and Hindle, Abram and Ali, Karim},
+  title   = {On the Time-Based Conclusion Stability of Software Defect Prediction Models},
+  journal = {arXiv preprint arXiv:1911.06348},
+  year    = {2019},
+}
+
 @Article{bennin2019relative,
   author    = {Bennin, Kwabena Ebo and Keung, Jacky W and Monden, Akito},
   title     = {On the relative value of data resampling approaches for software defect prediction},
@@ -261,6 +268,13 @@
   author  = {Herbold, Steffen},
   title   = {On the costs and profit of software defect prediction},
   journal = {arXiv preprint arXiv:1911.04309},
+  year    = {2019},
+}
+
+@Article{herbold2019issues,
+  author  = {Herbold, Steffen and Trautsch, Alexander and Trautsch, Fabian},
+  title   = {Issues with SZZ: An empirical assessment of the state of practice of defect prediction data collection},
+  journal = {arXiv preprint arXiv:1911.08938},
   year    = {2019},
 }
 
@@ -1071,17 +1085,6 @@
   owner     = {Lenovo},
   publisher = {Springer},
   timestamp = {2019.10.16},
-}
-
-@Article{Li2018,
-  author    = {Li, Zhiqiang and Jing, Xiao-Yuan and Zhu, Xiaoke},
-  title     = {Heterogeneous fault prediction with cost-sensitive domain adaptation},
-  journal   = {Software Testing, Verification and Reliability},
-  year      = {2018},
-  volume    = {28},
-  number    = {2},
-  pages     = {e1658},
-  publisher = {Wiley Online Library},
 }
 
 @Article{li2018heterogeneous,
@@ -2113,6 +2116,14 @@
   owner     = {Lenovo},
   publisher = {Springer},
   timestamp = {2019.10.16},
+}
+
+@InProceedings{cheng2016heterogeneous,
+  author    = {Cheng, Ming and Wu, Guoqing and Jiang, Min and Wan, Hongyan and You, Guoan and Yuan, Mengting},
+  title     = {Heterogeneous Defect Prediction via Exploiting Correlation Subspace.},
+  booktitle = {SEKE},
+  year      = {2016},
+  pages     = {171--176},
 }
 
 @Article{da2016framework,
