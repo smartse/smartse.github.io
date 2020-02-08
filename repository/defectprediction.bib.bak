@@ -5,6 +5,7 @@
   title     = {How to" DODGE" Complex Software Analytics?},
   journal   = {IEEE Transactions on Software Engineering},
   year      = {2019},
+  keywords  = {rank5},
   owner     = {Lenovo},
   timestamp = {2019.10.16},
 }
@@ -84,6 +85,7 @@
   year         = {2019},
   pages        = {666--676},
   organization = {IEEE Press},
+  keywords     = {rank4},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
 }
@@ -98,6 +100,16 @@
   pages   = {1288--1307},
 }
 
+@Article{cai2019abstract,
+  author    = {Cai, Ziyi and Lu, Lu and Qiu, Shaojian},
+  title     = {An Abstract Syntax Tree Encoding Method for Cross-Project Defect Prediction},
+  journal   = {IEEE Access},
+  year      = {2019},
+  volume    = {7},
+  pages     = {170844--170853},
+  publisher = {IEEE},
+}
+
 @InProceedings{catolino2019cross,
   author       = {Catolino, Gemma and Di Nucci, Dario and Ferrucci, Filomena},
   title        = {Cross-project just-in-time bug prediction for mobile apps: an empirical assessment},
@@ -105,6 +117,26 @@
   year         = {2019},
   pages        = {99--110},
   organization = {IEEE Press},
+}
+
+@Article{catolino2019extensive,
+  author    = {Catolino, Gemma and Ferrucci, Filomena},
+  title     = {An extensive evaluation of ensemble techniques for software change prediction},
+  journal   = {Journal of Software: Evolution and Process},
+  year      = {2019},
+  volume    = {31},
+  number    = {9},
+  pages     = {e2156},
+  publisher = {Wiley Online Library},
+}
+
+@Article{catolino2019improving,
+  author    = {Catolino, Gemma and Palomba, Fabio and Fontana, Francesca Arcelli and De Lucia, Andrea and Zaidman, Andy and Ferrucci, Filomena},
+  title     = {Improving change prediction models with code smell-related information},
+  journal   = {Empirical Software Engineering},
+  year      = {2019},
+  pages     = {1--47},
+  publisher = {Springer},
 }
 
 @Article{chen2019deepcpdp,
@@ -262,6 +294,16 @@
   year         = {2019},
   pages        = {1095--1106},
   organization = {IEEE Press},
+  keywords     = {rank4},
+}
+
+@InProceedings{ha2019performance,
+  author       = {Ha, Huong and Zhang, Hongyu},
+  title        = {Performance-Influence Model for Highly Configurable Software with Fourier Learning and Lasso Regression},
+  booktitle    = {2019 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  year         = {2019},
+  pages        = {470--480},
+  organization = {IEEE},
 }
 
 @Article{he2019ensemble,
@@ -352,6 +394,15 @@
   year      = {2019},
   pages     = {1--46},
   publisher = {Springer},
+}
+
+@InProceedings{jiarpakdee2019towards,
+  author       = {Jiarpakdee, Jirayus},
+  title        = {Towards a more reliable interpretation of defect models},
+  booktitle    = {2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)},
+  year         = {2019},
+  pages        = {210--213},
+  organization = {IEEE},
 }
 
 @Article{jiarpakdee2019impact,
@@ -836,6 +887,7 @@
   year         = {2019},
   pages        = {783--794},
   organization = {IEEE Press},
+  keywords     = {rank5},
 }
 
 @Article{zhang2019file,
@@ -893,6 +945,7 @@
   year      = {2018},
   volume    = {144},
   pages     = {216--239},
+  keywords  = {rank5},
   publisher = {Elsevier},
 }
 
@@ -984,6 +1037,16 @@
   owner     = {Lenovo},
   publisher = {Springer},
   timestamp = {2019.10.16},
+}
+
+@Article{catolino2018enhancing,
+  author    = {Catolino, Gemma and Palomba, Fabio and De Lucia, Andrea and Ferrucci, Filomena and Zaidman, Andy},
+  title     = {Enhancing change prediction models using developer-related factors},
+  journal   = {Journal of Systems and Software},
+  year      = {2018},
+  volume    = {143},
+  pages     = {14--28},
+  publisher = {Elsevier},
 }
 
 @InProceedings{chen2018applications,
@@ -1146,6 +1209,7 @@
   volume    = {12},
   number    = {3},
   pages     = {161--175},
+  keywords  = {rank4},
   owner     = {Lenovo},
   publisher = {IET},
   timestamp = {2019.10.16},
@@ -1159,6 +1223,14 @@
   volume    = {100},
   pages     = {87--102},
   publisher = {Elsevier},
+}
+
+@InProceedings{lin2018predicting,
+  author    = {Lin, Qingwei and Hsieh, Ken and Dang, Yingnong and Zhang, Hongyu and Sui, Kaixin and Xu, Yong and Lou, Jian-Guang and Li, Chenggang and Wu, Youjiang and Yao, Randolph and others},
+  title     = {Predicting Node failure in cloud service systems},
+  booktitle = {Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  year      = {2018},
+  pages     = {480--490},
 }
 
 @InProceedings{liu2018cross,
@@ -1198,6 +1270,7 @@
   year      = {2018},
   volume    = {99},
   pages     = {148--163},
+  keywords  = {rank4},
   publisher = {Elsevier},
 }
 
@@ -1297,6 +1370,7 @@
   year         = {2018},
   pages        = {286--295},
   organization = {ACM},
+  keywords     = {rank4},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
 }
@@ -1727,6 +1801,7 @@
   volume    = {45},
   number    = {2},
   pages     = {111--147},
+  keywords  = {rank5},
   owner     = {Lenovo},
   publisher = {IEEE},
   timestamp = {2019.10.16},
@@ -2271,6 +2346,7 @@
   volume       = {5},
   pages        = {33--45},
   organization = {IEEE},
+  keywords     = {rank4},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
 }
@@ -2417,6 +2493,7 @@
   year         = {2016},
   pages        = {12},
   organization = {ACM},
+  keywords     = {rank4},
 }
 
 @Article{singh2016fuzzy,
@@ -2616,6 +2693,7 @@
   year         = {2016},
   pages        = {309--320},
   organization = {ACM},
+  keywords     = {rank5},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
 }
@@ -2690,6 +2768,7 @@
   volume    = {25},
   number    = {4},
   pages     = {426--459},
+  keywords  = {rank4},
   publisher = {Wiley Online Library},
 }
 
@@ -3631,6 +3710,7 @@
   year         = {2012},
   pages        = {171--180},
   organization = {ACM},
+  keywords     = {rank4},
 }
 
 @InProceedings{hata2012bug,
@@ -3755,6 +3835,7 @@
   year         = {2012},
   pages        = {63},
   organization = {ACM},
+  keywords     = {rank4},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
 }
@@ -3777,6 +3858,7 @@
   year         = {2012},
   pages        = {61},
   organization = {ACM},
+  keywords     = {rank4},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
 }
@@ -4015,6 +4097,7 @@
   year         = {2010},
   pages        = {97--106},
   organization = {ACM},
+  keywords     = {rank4},
   owner        = {Lenovo},
   timestamp    = {2019.10.16},
 }
