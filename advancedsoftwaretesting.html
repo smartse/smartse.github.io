@@ -34,6 +34,11 @@ function toggleBibtex(articleid) {
 }
 -->
 </script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+-->
+</style>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -43,62 +48,97 @@ function toggleBibtex(articleid) {
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
 <div class="menu-item"><a href="publications.html">Publications</a></div>
 <div class="menu-item"><a href="honors.html">Honors</a></div>
-<div class="menu-item"><a href="group/index.html">Research Group</a></div>
-</td>
+<div class="menu-item"><a href="group/index.html">Research Group</a></div></td>
 <td id="layout-content">
 <h1>软件测试方法与技术 （研究生）</h1>
 
 <h2>教材</h2>
+<p>朱少民。<a href="https://item.jd.com/11563286.html">软件测试方法和技术（第3版）。</a>清华大学出版社。 </p>
+<p> 王兴亚 王智钢 赵源 陈振宇 。开发者测试。机械工业出版社。</p> 
 <p>Paul Ammann and Jeff Offutt. <a href="https://item.jd.com/12477814.html?dist=jd">软件测试基础（第2版）。</a>机械工业出版社</p>
 <p>Gordon Fraser等人. Software Testing. 讲义</p>
-<p>相关论文</p>
+<p>相关综述论文</p>
+
+<h2>慕课</h2>
+<p> 慕课1. 软件测试 陈振宇 南京大学 爱课程链接 [<a href="http://www.icourse163.org/course/NJU-1001773008">Link</a>]
+<p> 慕课1a. 软件测试 陈振宇 南京大学  慕测平台链接 [<a href="www.mooctest.net">Link</a>] <br>
+  包括 慕测软件测试基础课程、慕测开发者测试课程、慕测Web应用测试课程、慕测移动应用测试课程
 <h2>授课内容</h2>
-<p>第一讲 绪论</p>
-<p>第二讲 测试覆盖准则 （控制流、数据流） </p>
-<ol><li>A Survey on Data-Flow Testing</li></ol>
-<p>第三讲 测试用例生成技术 </p>
-<ol><li>组合测试研究进展 聂长海</li>
-  <li>A Survey of Combinatorial Testing</li>
-  <li>An orchestrated survey of methodologies for automated software test case generation </li>
+
+
+
+
+<p>[第1周-第2周] 软件测试绪论和基础概念</p>
+<p> <span class="STYLE1">参考</span> 慕测软件测试基础课程</p>
+<ol>
+  <li>验证与确认</li>
+  <li>错误、缺陷和失效</li>
+  <li>RIP模型</li>
+  <li>软件测试和软件调试 </li>
+  <li>测试用例：测试输入和测试用例Oracle</li>
+  <li>测试用例集和测试脚本</li>
+  <li>白盒测试和黑盒测试</li>
+  <li>静态测试和动态测试</li>
+  </ol>
+<p>[第3周-第5周] 测试用例生成技术 </p>
+<p><span class="STYLE1">参考</span> 慕测开发者测试课程</p>
+<p>黑盒测试方法</p>
+<ol>
+  <li>黑盒测试面临的挑战，穷尽测试</li>
+  <li>等价类划分</li>
+  <li>边界值分析</li>
+  <li>判定表方法</li>
+  <li>因果图方法</li>
+  <li>组合测试方法</li>
+  <li>探索性测试方法</li>
 </ol>
-<p>第四讲 测试用例Oracle技术</p>
-<ol><li>The Oracle Problem in Software Testing A Survey</li>
-  <li>A Survey on Metamorphic Testing</li>
-</ol>
-<p>第五讲 回归测试</p>
-<ol><li>Regression Testing Minimisation, Selection and Prioritisation  A Survey </li>
+<p>白盒测试方法</p>
+<ol>
+  <li>白盒测试面临的挑战</li>
+  <li>语句覆盖准则</li>
+  <li>判定覆盖准则</li>
+  <li>条件覆盖准则</li>
+  <li>判定-条件覆盖准则</li>
+  <li>条件组合覆盖准则</li>
+  <li>路径覆盖准则</li>
+  <li>基于控制流的覆盖准则间的层次关系分析</li>
+  <li>基本路径测试方法</li>
+  <li> 基于数据流的覆盖准则</li>
+  </ol>
+<p> 实践项目： 单元测试用例设计 </p>
+<p><span class="STYLE1">参考</span> 慕课1a 慕测开发者测试课程</p>
+<p>[第6周-第10周] 软件测试高级研究课题</p>
+<p>课题1：回归测试方法</p>
+<ol>
+  <li>Regression Testing Minimisation, Selection and Prioritisation  A Survey </li>
   <li>回归测试中的测试用例优先排序技术述评</li>
-</ol>
-
-
-<p>第六讲 变异测试</p>
-<ol><li>Mutation testing advances_ an analysis and survey </li></ol>
-
-<p>第七讲 软件缺陷定位和修复</p>
-<ol><li>Automatic Software Repair_ a Bibliography </li>
+  </ol>
+<p>课题2：软件自动缺陷定位方法</p>
+<ol>
   <li>A Survey on Software Fault Localization</li>
-  <li>基于程序频谱的动态缺陷定位方法研究</li>
+  <li>自动程序修复方法研究述评</li>
+  </ol>
+<p>课题3：软件自动缺陷修复方法</p>
+<ol>
+  <li>Automatic Software Repair_ a Bibliography </li>
   <li>自动程序修复方法研究述评</li>
 </ol>
-
-<p>第八讲 软件缺陷预测</p>
+<p>课题4：软件仓库挖掘：软件缺陷预测</p>
 <ol>
   <li>静态软件缺陷预测方法研究 </li>
   <li>跨项目软件缺陷预测方法研究综述</li>
-</ol>
-
-
-<p>顶会论文选讲 （ICSE 、FSE 、 ASE、 ISSTA） </p>
+  </ol>
+<p>顶会论文选讲 （ICSE 、FSE 、 ASE） 选择一篇自己感兴趣的论文（必须是全文，即论文长度是10+2页） </p>
+<p><a href="a">[参考ppt1</a>] [<a href="metamorphic testing.pptx">参考ppt2</a>] </p>
+<p>要求ppt必须包含：背景、研究动机、问题、方法、实验设计、结果分析、论文的优点和不足（自己的理解）</p>
+<p>要求每个ppt的汇报时间为30分钟，提问5分钟</p>
 <ol>
-  <li>to be added </li>
+  <li>[ICSE 2020] https://conf.researchr.org/home/icse-2020</li>
+  <li>[ESE-FSE 2019] https://esec-fse19.ut.ee/ </li>
+  <li>[ASE 2019] https://2019.ase-conferences.org/</li>
 </ol>
 
-<p>综述主题 </p>
-<ol>
-  <li>to be added </li>
-</ol>
-
-<p>&nbsp;</p>
+<p>[第11周-第12周] 学生论文报告 </p>
 <h2>联系方式</h2>
 <p>办公室：江苏省南通市啬园路9号南通大学方肇周楼606办公室 <br />
  邮箱：xchencs at ntu dot edu dot cn <br />
@@ -106,10 +146,12 @@ function toggleBibtex(articleid) {
 
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-07-10 16:18:50 中国标准时间, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
-</div>
-</div>
-</td>
+Page generated 2017-07-10 16:18:50 中国标准时间, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.</div>
+</div></td>
+</tr>
+<tr valign="top">
+  <td id="layout-menu">&nbsp;</td>
+  <td id="layout-content">&nbsp;</td>
 </tr>
 </table>
 <p class="biblist">&nbsp;</p>
