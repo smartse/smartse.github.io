@@ -1,5 +1,47 @@
 % Encoding: GBK
 
+@Article{chen2020empirical,
+  author    = {Chen, Haowen and Jing, Xiao-Yuan and Li, Zhiqiang and Wu, Di and Peng, Yi and Huang, Zhiguo},
+  title     = {An Empirical Study on Heterogeneous Defect Prediction Approaches},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2020},
+  publisher = {IEEE},
+}
+
+@InProceedings{Chen:ICSE2020,
+  author    = {Jinyin Chen and Keke Hu and Yue Yu and Zhuangzhi Chen and Qi Xuan and Yi Liu and Vladimir Filkov},
+  title     = {Software Visualization and Deep Transfer Learning for Effective Software Defect Prediction},
+  booktitle = {Proceedings of the 42nd International Conference on Software Engineering},
+  year      = {2020},
+  owner     = {Lenovo},
+  timestamp = {2020.02.24},
+}
+
+@Article{chen2020evaluate,
+  author  = {Chen, Tao and Li, Miqing and Yao, Xin},
+  title   = {How to Evaluate Solutions in Pareto-based Search-Based Software Engineering? A Critical Review and Methodological Guidance},
+  journal = {arXiv preprint arXiv:2002.09040},
+  year    = {2020},
+}
+
+@InProceedings{Li:ICSE2020,
+  author    = {Ke Li and Zilin Xiang and Tao Chen and Shuo Wang and Kay Chen Tan},
+  title     = {Understanding the Automated Parameter Optimization on Transfer Learning for Cross-Project Defect Prediction: An Empirical Study},
+  booktitle = {Proceedings of the 42nd International Conference on Software Engineering},
+  year      = {2020},
+  owner     = {Lenovo},
+  timestamp = {2020.02.24},
+}
+
+@InProceedings{Tabassum:ICSE2020,
+  author    = {Sadia Tabassum and Leandro Minku and Danyi Feng and George Cabral and Liyan Song},
+  title     = {An Investigation of Cross-Project Learning in Online Just-In-Time Software Defect Prediction},
+  booktitle = {Proceedings of the 42nd International Conference on Software Engineering},
+  year      = {2020},
+  owner     = {Lenovo},
+  timestamp = {2020.02.24},
+}
+
 @Article{agrawal2019dodge1,
   author    = {Agrawal, Amritanshu and Fu, Wei and Chen, Di and Shen, Xipeng and Menzies, Tim},
   title     = {How to" DODGE" Complex Software Analytics?},
@@ -137,6 +179,13 @@
   year      = {2019},
   pages     = {1--47},
   publisher = {Springer},
+}
+
+@Article{chakraborty2019software,
+  author  = {Chakraborty, Joymallya and Xia, Tianpei and Fahid, Fahmid M and Menzies, Tim},
+  title   = {Software Engineering for Fairness: A Case Study with Hyperparameter Optimization},
+  journal = {arXiv preprint arXiv:1905.05786},
+  year    = {2019},
 }
 
 @Article{chen2019deepcpdp,
