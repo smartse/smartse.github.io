@@ -24,6 +24,7 @@
 # Ge Li 北京大学
 
 # Chao Zhang 清华大学
+# Yu Jiang 清华大学
 
 # Jian Zhang 中科院软件所
 ## Jun Yan 中科院软件所
@@ -149,7 +150,7 @@
 ## Qing Huang 江西师范大学
 
 # Michael Lyu 香港中文
-## Cuiyun Gao
+## Cuiyun Gao 哈工大
 ## Pingjia He
 
 # Shing-Chi Cheung HUST
@@ -160,6 +161,7 @@
 ## Yutian Tang
 # Yu Pei 香港理工
  
+# Tao Zhang 澳门科技大学
 
 # Weiyi Shang  University of Waterloo
 
