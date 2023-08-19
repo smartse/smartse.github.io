@@ -1,6 +1,9 @@
 # Yang Liu 新加坡南洋理工
+# Yi Li 新加坡南洋理工
 ## Lei Ma
+## Ting Su
 ## Xiaofei Xie
+## Xiaoning Du
 ## Sen Chen 天津大学
 ## Lingling Fan 南开大学
 ## Yuekang Li 
@@ -15,9 +18,9 @@
 
 # Tao Xie 北京大学
 # Lu Zhang 北京大学
-#Yingfei Xiong 北京大学
+# Yingfei Xiong 北京大学
 ## Zeyu Sun
-#Dan Hao 北京大学
+# Dan Hao 北京大学
 # Zhi Jin 北京大学
 # Minghui Zhou 北京大学
 # Yao Guo 北京大学
@@ -45,6 +48,10 @@
 # Li Li 北航
 # Fang Liu 北航
 # Xiang Gao 北航
+# Li Zhang 北航
+#Zheng Zhen 北航
+
+# Yin Xing 北京邮电大学
 
 # Yong Liu 北化工
 
@@ -86,6 +93,7 @@
 # Bixin Li 东南大学
 
 # Wei Song 南京理工大学
+# Zhifei Chen 南京理工大学
 
 # Yu Zhou 南京航空航天大学
 # Wenhua Yang 
@@ -96,15 +104,28 @@
 
 # Xiaobing Sun 扬州大学
 
+# Jinfu Chen 江苏大学
+
 # Xiang Chen 南通大学
+## Chao Ni 浙江大学
+## Wangshu Liu 南工大
+## Xiaoxue Wu 扬大
+## Yingquan Zhao 天津大学读博
+## Qingchao Shen 天津大学读博
+## Yanzhou Mu 南大读博
+## Huarui Lin 浙大读博
+## Guang Yang 南航读博
+## Ke Liu 国防科大读博
+## Shuncheng Tang 中科大读博
+## Zixuan Ding 南开读博
 
 # Junjie Chen 天津大学
 # Jiajun Jiang 天津大学
 # Shuang Liu 天津大学
-## Yingquan Zhao
-## Qingchao Shen
+
 
 # Kui Liu 华为公司
+# Xinyu Wang 浙江大学
 # Xin Xia 浙江大学
 ## Xing Hu
 ## Lingfeng Bao
@@ -114,7 +135,9 @@
 
 # Yinxin Xue 中科大
 
+# Xiaoguang Mao 国防科技大学
 # Shanshan Li 国防科技大学
+# Wei Dong 国防科技大学
 
 # Xiaoyuan Xie 武汉大学
 # Jifeng Xuan 武汉大学
@@ -145,6 +168,11 @@
 
 # Ying Wang 东北大学
 
+# Junwei Du 青岛科技大学
+# Dunwei Gong 青岛科技大学
+
+# Zuohua Ding 浙江理工大学
+
 # Zhenchang Xing 澳洲国立大学
 ## Chunyang Chen
 ## Qing Huang 江西师范大学
@@ -163,10 +191,18 @@
  
 # Tao Zhang 澳门科技大学
 
+-------------------------------------------------------------
 # Weiyi Shang  University of Waterloo
 
 # Tse-Hsun (Peter) Chen Concordia University
 # Emad Shihab Concordia Univeristy
+
+# Foutse Khomh Polytechnique Montréal 
+
+# Ahmed E. Hassan Queen's University
+# Ying Zou Queen's University
+------------------------------------------------------
+# Claire Le Goues CMU
 
 # Yuanfang Cai
 ## Ren Mo 华中师范大学
@@ -174,10 +210,6 @@
 # Alessandro Orso
 
 # Michael D. Ernst University of Washington
-
-# Earl T. Barr University College London
-
-# Claire Le Goues CMU
 
 # Tien N. Nguyen University of Texas at Dallas
 ## Yi Li New Jersey Institute of Technology
@@ -189,7 +221,31 @@
 # Xiangyu Zhang Purdue University
 # Lin Tan  Purdue University
 
+
 # Lingming Zhang UIUC
 
+# Tim Menzies North Carolina State
+
+----------------------------------------------------------------
+# Earl T. Barr University College London
+# Mark Harman University College London
+# Jie Zhang 
+
+
 # Massimiliano Di Penta University of Sannio
+
+# Fabio Palomba University of Salerno
+
+#  Yves Le Traon  University of Luxembourg
+
+---------------------------------------------------------------
+# John C. Grundy Monash University
+# Kla Tantithamthavorn Monash University
+
+# Christoph Treude  University of Melbourne
+
+
+
+
+
 
