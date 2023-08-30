@@ -10,7 +10,7 @@
 ## Zhengzi Xu
 ## Chengwei Liu
 ## Cen Zhang
-## Shangqing Liu
+## Shangqing Liu  shangqingliu666@gmail.com
 
 # Lingxiao Jiang 新加坡管理大学
 # David Lo 新加坡管理大学
@@ -188,6 +188,8 @@
 # Xiapu Luo  香港理工
 ## Yutian Tang
 # Yu Pei 香港理工
+
+# KEUNG Wai Jacky  Jacky.Keung@cityu.edu.hk
  
 # Tao Zhang 澳门科技大学
 
